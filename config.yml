@@ -15,7 +15,7 @@ email: "tex@conductor.com.br"
 description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
 
 O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
-baseurl: ""
+baseurl: "/zeppelin"
 url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "x"
@@ -57,10 +57,10 @@ rightNavigationButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Increva-se"}
 
 # Hero Block
-heroImage: "fachada_02.jpg"
-heroTitle: "TECH Experience 2017 | <typeout>"
-eventDate: "08, 18 e 19 de Fevereiro"
-typeoutTextValues: '"", "Palestras", "Hackthon", "3K em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
+heroImage: "hero.jpg"
+heroTitle: "TECH Experience | <typeout>"
+eventDate: "08, 18 e 19 de Fevereiro de 2017"
+typeoutTextValues: '"", "Hackthon", "30 vagas na Conductor", "Microsoft Day", "Inovação", "Imerssão .NET", "Pizza", "3K em prêmios", "Café", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackthon"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Inscreva-se"}
