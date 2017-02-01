@@ -10,27 +10,29 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "TECH Experience 2017 by Conductor"
+email: "tex@conductor.com.br"
+description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
+
+O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
 baseurl: "/zeppelin"
-url: "https://gdg-x.github.io"
+url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "gdg-x.github.io"
-siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+googleAnalyticsTrackingId: "x"
+googleAnalyticsSiteUrl: "x"
+siteVerification: "x-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
+organizerName: "Conductor"
+organizerAlternateName: "Conductor Tecnologia em meios de pagamentos"
+organizerDescription: "Líder em meios de pagamentos"
+organizerEmail: "tex@conductor.com.br"
 organizerLogo: "/img/seo/organizer-logo.png"
 organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "cartão, meios de pagamentos, hackthon, hackday, hackweek"
+twitterAccount: "@devconductor"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -50,9 +52,9 @@ navigationLinks:
  - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Hackthon"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Increva-se"}
 
 # Hero Block
 heroImage: "hero.jpg"
@@ -61,8 +63,8 @@ eventDate: "08, 18 e 19 de Fevereiro de 2017"
 typeoutTextValues: '"", "Hackthon", "30 vagas na Conductor", "Microsoft Day", "Inovação", "Imerssão .NET", "Pizza", "3K em prêmios", "Café", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackthon"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Inscreva-se"}
+ - {permalink: "/#hackthon", text: "Hackthon"}
 
 # About Block
 aboutTitle: "Sobre o TECH Experince 2017"
@@ -121,9 +123,9 @@ twitterHashTag: "conductorTex2017"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizadores"
-partnersTitle: "Parceiros"
-partnersC4sponsorsButton: "Seja um patrocinador"
+organizersTitle: "Realização"
+#partnersTitle: "Parceiros"
+#partnersC4sponsorsButton: "Seja um patrocinador"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
