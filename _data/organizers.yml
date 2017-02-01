@@ -1,9 +1,9 @@
 - 
   group: "Parceria"
   elements: 
-    - {name: "Conductor", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "Unipê", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    - {name: "Conductor", description: "Tecnologia em Meios de Pagamentos", link: "http://www.conductor.com.br", imageUrl: "conductor_logo.png"}
+    - {name: "Unipê", description: "Centro Universitário de João Pessoa", link: "http://unipe.br", imageUrl: "logo_unipe.png"}
 - 
   group: "Apoio"
   elements: 
-    - {name: "Microsoft", description: "GDG Kyiv - Open and volunteer geek community", link: "http://kyiv.gdg.org.ua", imageUrl: "gdg-kyiv.svg"}
+    - {name: "Microsoft", description: "", link: "https://www.microsoft.com/pt-br", imageUrl: "microsoft.svg"}

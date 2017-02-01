@@ -15,7 +15,7 @@ email: "tex@conductor.com.br"
 description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
 
 O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "x"
@@ -44,26 +44,26 @@ c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 # Navigation
 navigationLinks:
- - {permalink: "/", text: "Home"}
- - {permalink: "/blog/", text: "Blog"}
- - {permalink: "/schedule/", text: "Schedule"}
- - {permalink: "/speakers/", text: "Speakers"}
- - {permalink: "/team/", text: "Team"}
- - {permalink: "/logistics/", text: "Logistics"}
+ - {permalink: "/", text: "Início"}
+# - {permalink: "/blog/", text: "Blog"}
+ - {permalink: "/schedule/", text: "Programação"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+# - {permalink: "/team/", text: "Team"}
+# - {permalink: "/logistics/", text: "Logistics"}
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackthon"}
 rightNavigationButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Increva-se"}
+ - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
 
 # Hero Block
-heroImage: "hero.jpg"
+heroImage: "fachda_01.jpg"
 heroTitle: "TECH Experience | <typeout>"
 eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"", "Hackthon", "30 vagas na Conductor", "Microsoft Day", "Inovação", "Imerssão .NET", "Pizza", "3K em prêmios", "Café", "Network", "Cloud Computing", ".NET Core"'
+typeoutTextValues: '"", "Palestras", "Hackthon", "3K em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackthon"
 heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Inscreva-se"}
+ - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
  - {permalink: "/#hackthon", text: "Hackthon"}
 
 # About Block
@@ -77,8 +77,8 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "3", specialCharacter: "", info: "mil reais", detail: "em dinheiro"}
- - {count: "24", specialCharacter: "", info: "horas", detail: "de pura tecnologia"}
+ - {count: "3", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
+ - {count: "24", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
  - {count: "3", specialCharacter: "", info: "palestrantes", detail: "Microsoft Most Value Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de treinamento intensivo"}
 
@@ -86,7 +86,7 @@ statisticBlock:
 latestNewsTitle: "Novidades"
 
 # Rockstar Speakers Block
-rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersImage: "equipe_cdt.jpg"
 rockstarSpeakersCount: 4
 rockstarSpeakersTitle: "Palestrantes"
 rockstarSpeakersButtonText: "Conheça os palestrantes"
@@ -109,18 +109,18 @@ mapMobileCenterCoordinates: "-7.11245422,-34.84339078"
 
 # Venue Block
 venueBlockTitle: "Local"
-venueBigImage: "venue_0.jpg"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
+venueBigImage: "venue_2.jpg"
+venueSmallImage1: "venue_0.jpg"
+venueSmallImage2: "venue_1.jpg"
 venueSmallImage3: "venue_3.jpg"
 venueTitle: "Conductor Tecnologia"
 venueFeatures: ["Filial João Pessoa", "Localizado no Bairro dos Estados", "Estrutura moderna e acessível", "3KM do Mar"]
 
 # Tweets Feed Block
-tweetsFeedImage: "twitter-feed.jpg"
+tweetsFeedImage: "sala_desenv.jpg"
 tweetsFeedTitle: "Siga a hashtag"
 twitterHashTag: "conductorTex2017"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
 organizersTitle: "Realização"
@@ -129,51 +129,9 @@ organizersTitle: "Realização"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Increva-se para atualizações"
+subscribeTitle: "Garanta logo a sua vaga"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
-
-# Tickets Block
-ticketsTitle: "Pricetable"
-ticketsInfo: "Tickets grant access to all conference sections, coffee brakes, lunch and party. Accommodation is NOT included in the ticket price."
-ticketsOffers:
- -
-  name: "Early Bird"
-  price: "350"
-  priceCurrency: "UAH"
-  ticketsNumber: "150"
-  ribbon: "-5%"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-25T10:00"
-  validThrough: "2014-09-30T23:59"
- -
-  name: "Last Chance"
-  price: "450"
-  priceCurrency: "UAH"
-  ticketsNumber: "100"
-  ribbon: "-20%"
-  featured: true
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-10-01T00:00"
-  validThrough: "2014-10-23T23:59"
-  disabled: true
- -
-  name: "Student"
-  price: "200"
-  priceCurrency: "UAH"
-  ticketsNumber: "50"
-  buyButtonLink: "http://dfua.ticketforevent.com/"
-  buyButtonText: "Buy Now"
-  additionalInfo: "Requires a valid student ID at the conference check in. Without student ID at the check in, ticket will be cancelled without refund"
-  ticketContentList: ["Lorem ipsum is simply", "Dummy text of the printing", "Typesetting industry"]
-  validFrom: "2014-08-20T10:00"
-  validThrough: "2014-10-23T23:59"
-  soldOut: true
-  soldOutText: "Sold Out"
+subscribeInfo: "Lembre que as vagas são limitadas"
 
 # Footer
 socialLinks:
@@ -185,19 +143,19 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://www.conductor.com.br", text: "Conductor Tecnologia"}
+   - {link: "https://pierlabs.io", text: "PIER {Labs}"}
  -
-  title: "Contacts"
+  title: "Contato"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:tex@conductor.com.br", text: "tex@conductor.com.br"}
  -
   title: "FAQ"
   links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {permalink: "/cod/", text: "Perguntas Frequêntes"}
 
 # Blog
-blogTitle: "Latest news"
+blogTitle: "Últimas Novidades"
 blogCommentsEnabled: true
 discusShortName: "devfestua"
 
@@ -271,9 +229,9 @@ judgesTitle: "Judges"
 # Hackathon Prizes Block
 prizesTitle: "Prizes"
 prizes:
- - {title: "2nd Place", image: "prize-2.png", info: "Amazing Moto 360"}
- - {title: "1nd Place", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
- - {title: "3nd Place", image: "prize-3.png", info: "Useful Chromecast"}
+ - {title: "2º Lugar", image: "prize-2.png", info: "Amazing Moto 360"}
+ - {title: "1º Lugar", image: "prize-1.png", info: "Nexus 5 with pre-installed Android L"}
+ - {title: "3º Lugar", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Location"
