@@ -56,77 +56,78 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
-typeoutFallback: "Season"
+heroTitle: "TECH Experience | <typeout>"
+eventDate: "08, 18 e 19 de Fevereiro de 2017"
+typeoutTextValues: '"", "Hackthon", "30 vagas na Conductor", "Microsoft Day", "Inovação", "Imerssão .NET", "Pizza", "3K em prêmios", "Café", "Network", "Cloud Computing", ".NET Core"'
+typeoutFallback: "Hackthon"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Sobre o TECH Experince 2017"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Paletras", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Hackathon", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "30 Vagas", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Cursos", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "3", specialCharacter: "", info: "mil reais", detail: "em dinheiro"}
+ - {count: "24", specialCharacter: "", info: "horas", detail: "de pura tecnologia"}
+ - {count: "3", specialCharacter: "", info: "palestrantes", detail: "Microsoft Most Value Professional"}
+ - {count: "40", specialCharacter: "+", info: "horas", detail: "de treinamento intensivo"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Novidades"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
 
 # Location Block
-locationBlockTitle: "Location"
-eventLocationName: "Conference Hall"
-eventLocationLink: "http://cabinet.kinopalace.lviv.ua/showtimes/"
-eventStreetAddress: "22 Teatral'na St"
-eventAddressLocality: "Lviv"
-eventAddressLocalityRegion: "Lvivska"
-eventPostalCode: "79000"
-eventAddressCountry: "Ukraine"
-eventStartTime: "2014-10-25T10:00"
-eventDoorTime: "09:00"
+locationBlockTitle: "Localização"
+eventLocationName: "Conductor Filial João Pessoa"
+eventLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
+eventStreetAddress: "R. Antônio Régis de Brito, 15"
+eventAddressLocality: "João Pessoa"
+eventAddressLocalityRegion: "João Pessoa"
+eventPostalCode: "58031-106"
+eventAddressCountry: "Paraíba"
+eventStartTime: "2017-01-01T06:00"
+eventDoorTime: "23:00"
 eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "49.843237, 24.028751"
-mapCenterCoordinates: "49.842537, 24.025701"
-mapMobileCenterCoordinates: "49.841620, 24.029411"
+eventPlaceCoordinates: "-7.11245422,-34.84339078"
+mapCenterCoordinates: "-7.11245422,-34.84339078"
+mapMobileCenterCoordinates: "-7.11245422,-34.84339078"
 
 # Venue Block
-venueBlockTitle: "Venue"
+venueBlockTitle: "Local"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+venueTitle: "Conductor Tecnologia"
+venueFeatures: ["Filial João Pessoa", "Localizado no Bairro dos Estados", "Estrutura moderna e acessível", "3KM do Mar"]
 
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
-tweetsFeedTitle: "What's Up?"
-twitterHashTag: "devfest"
+tweetsFeedTitle: "Siga a hashtag"
+twitterHashTag: "conductorTex2017"
 twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Organizers"
-partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
+organizersTitle: "Organizadores"
+partnersTitle: "Parceiros"
+partnersC4sponsorsButton: "Seja um patrocinador"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Increva-se para atualizações"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
 subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
 
