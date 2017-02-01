@@ -15,7 +15,7 @@ email: "tex@conductor.com.br"
 description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
 
 O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
-baseurl: "/zeppelin"
+baseurl: ""
 url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "x"
