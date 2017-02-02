@@ -39,7 +39,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <p class="post-body">{{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl | append: post.url }}">continue reading</a></p>
+                        <p class="post-body">{{ post.content | strip_html | truncate: 350 }} <a href="{{ site.baseurl | append: post.url }}">continuar lendo</a></p>
                     </article>
                 {% endfor %} 
 
@@ -47,24 +47,24 @@
                 <div class="row">
                     <div class="pagination">
                         {% if paginator.previous_page %}
-                        <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+                        <a href="/page{{ paginator.previous_page }}" class="previous">Anterior</a>
                         {% else %}
-                        <span class="previous">Previous</span>
+                        <span class="previous">Anterior</span>
                         {% endif %}
                         <span class="page-number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
                         {% if paginator.next_page %}
-                        <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+                        <a href="/page{{ paginator.next_page }}" class="next">Próximo</a>
                         {% else %}
-                        <span class="next ">Next</span>
+                        <span class="next ">Próximo</span>
                         {% endif %}
                     </div>
                 </div>
                 {% endif %}
 
-                <div class="row text-center">
+                <!--<div class="row text-center">
                     <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
                     </p>
-                </div>
+                </div>-->
 
             </div>
         </div>

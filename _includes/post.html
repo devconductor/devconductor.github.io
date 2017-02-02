@@ -52,22 +52,9 @@
                                 <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title | strip_html }}">{{page.previous.title | strip_html | truncate: 15 }} &raquo;</a>
                             {% endif %}
                         </div>
-                    </div>
+                    </div>                    
 
-                    {% if include.isStaticPost == false %}
-                        <div class="comments">
-                            {% if site.blogCommentsEnabled %} {% include disqus-comments.html %} {% endif %}
-                        </div>
-                    {% endif %}
-
-                </article>
-
-                {% if include.isStaticPost == false %}
-                    <div class="row text-center">
-                        <p class="rss-subscribe">Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}" target="_blank">via RSS</a>
-                        </p>
-                    </div>
-                {% endif %}
+                </article>              
 
             </div>
         </div>
