@@ -20,7 +20,7 @@ url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "x"
 googleAnalyticsSiteUrl: "x"
-siteVerification: "x-wWpMYhFq-no"
+siteVerification: "7DEq0vDwrGmohdXsfkFsTw0RJwpDu6x1gnRem2Xja8U"
 
 # Organizer Info
 organizerName: "Conductor"
@@ -69,7 +69,7 @@ heroButtons:
 # About Block
 aboutTitle: "Sobre o TECH Experince 2017"
 aboutBlock:
- - {title: "Paletras", image: "microfone.png", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Palestras", image: "microfone.png", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Hackathon", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
  - {title: "30 Vagas", image: "vagas.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
  - {title: "Cursos", image: "book.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
@@ -79,11 +79,11 @@ statisticBlockImage: "numeros.jpg"
 statisticBlock:
  - {count: "3", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
  - {count: "24", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
- - {count: "3", specialCharacter: "", info: "palestrantes", detail: "Microsoft Most Value Professional"}
+ - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Value Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de treinamento intensivo"}
 
 # Latest News Block
-latestNewsTitle: "Novidades"
+latestNewsTitle: "Curiosidades"
 
 # Rockstar Speakers Block
 rockstarSpeakersImage: "equipe_cdt.jpg"
@@ -93,19 +93,19 @@ rockstarSpeakersButtonText: "Conheça os palestrantes"
 
 # Location Block
 locationBlockTitle: "Localização"
-eventLocationName: "Conductor Filial João Pessoa"
-eventLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
-eventStreetAddress: "R. Antônio Régis de Brito, 15"
+eventLocationName: "Faculdade UNIPÊ"
+eventLocationLink: "https://www.google.com.br/maps/place/Centro+Universit%C3%A1rio+de+Jo%C3%A3o+Pessoa+-+UNIPE/@-7.1588197,-34.8570177,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc28768dfbfe7:0x87595d8fdc596d74!8m2!3d-7.158825!4d-34.854829"
+eventStreetAddress: "Rodovia BR-230, KM 22, s/n - Água Fria"
 eventAddressLocality: "João Pessoa"
 eventAddressLocalityRegion: "João Pessoa"
-eventPostalCode: "58031-106"
+eventPostalCode: "58053-000"
 eventAddressCountry: "Paraíba"
-eventStartTime: "2017-01-01T06:00"
+eventStartTime: "2017-02-08T08:00"
 eventDoorTime: "23:00"
-eventEndTime: "2014-10-25T20:00"
-eventPlaceCoordinates: "-7.11245422,-34.84339078"
-mapCenterCoordinates: "-7.11245422,-34.84339078"
-mapMobileCenterCoordinates: "-7.11245422,-34.84339078"
+eventEndTime: "2017-02-08T12:00"
+eventPlaceCoordinates: "-7.1588197,-34.8570177"
+mapCenterCoordinates: "-7.1588197,-34.8570177"
+mapMobileCenterCoordinates: "-7.1588197,-34.8570177"
 
 # Venue Block
 venueBlockTitle: "Local"
@@ -233,19 +233,16 @@ prizes:
  - {title: "3º Lugar", image: "prize-3.png", info: "Useful Chromecast"}
 
 # Hackathon Location Block
-hackathonLocationBlockTitle: "Location"
-hackathonLocationName: "Communa"
-hackathonLocationLink: "http://communa.net.ua/"
-hackathonStreetAddress: "1 Halytska St"
-hackathonAddressLocality: "Lviv"
-hackathonAddressLocalityRegion: "Lvivska"
-hackathonPostalCode: "79000"
-hackathonAddressCountry: "Ukraine"
-hackathonTimeTitle: "Hack through"
-hackathonStartTime: "2014-10-24T10:00"
-hackathonDoorTime: "09:00"
-hackathonEndTime: "2014-10-25T00:00"
-viewOnMap: "View on Google Maps"
-hackathonPlaceCoordinates: "49.840999, 24.031144"
-hackathonMapCenterCoordinates: "49.840696, 24.028754"
-hackathonMapMobileCenterCoordinates: "49.841639, 24.031182"
+hackathonLocationBlockTitle: "Localização"
+hackathonLocationName: "Conductor Filial João Pessoa"
+hackathonLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
+hackathonStreetAddress: "R. Antônio Régis de Brito, 15"
+hackathonAddressLocality: "João Pessoa"
+hackathonAddressLocalityRegion: "João Pessoa"
+hackathonPostalCode: "58031-106"
+hackathonAddressCountry: "Paraíba"
+hackathonTimeTitle: "Horário do evento: 10:00 do dia 18/02 até às 10:00 do dia 19/02"
+viewOnMap: "Ver no Google Maps"
+hackathonPlaceCoordinates: "-7.11245422,-34.84339078"
+hackathonMapCenterCoordinates: "-7.11245422,-34.84339078"
+hackathonMapMobileCenterCoordinates: "-7.11245422,-34.84339078"
