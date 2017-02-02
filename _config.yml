@@ -149,9 +149,9 @@ footerBlocks:
   links:
    - {link: "mailto:tex@conductor.com.br", text: "tex@conductor.com.br"}
  -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Perguntas Frequêntes"}
+  #title: "FAQ"
+  #links:
+  # - {permalink: "/cod/", text: "Perguntas Frequêntes"}
 
 # Blog
 blogTitle: "Últimas Novidades"
