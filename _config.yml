@@ -135,10 +135,9 @@ subscribeInfo: "Lembre que as vagas são limitadas"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
+ - {link: "https://plus.google.com/b/conductor", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=conductor", icon: "twitter"}
+ - {link: "https://pt-br.facebook.com/ConductorTecnologia/", icon: "facebook"}
 footerBlocks:
  -
   title: "Links"
@@ -157,7 +156,7 @@ footerBlocks:
 # Blog
 blogTitle: "Últimas Novidades"
 blogCommentsEnabled: true
-discusShortName: "devfestua"
+discusShortName: "techexperienceconductor"
 
 # Speakers List Block
 showSessions: true
