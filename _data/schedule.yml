@@ -2,51 +2,124 @@
   date: "2017-02-08"
   dateReadable: "08 de Fevereiro"
   tracks: 
-    - {title: "Microsoft & Azure", color: "#90be4e"}    
+    - {title: "Microsoft & Conductor", color: "#90be4e"}    
   timeslots:
+    #credenciamento
     - {
-    	startTime: "08:00",
-    	endTime: "08:30",
-    	sessionIds: [001]
+        startTime: "14:00",
+        endTime: "14:30",
+        sessionIds: [001]
     }
+    #Abertura - Palestra Conductor
     - {
-        startTime: "08:30",
-        endTime: "09:00",
+        startTime: "14:30",
+        endTime: "15:25",
         sessionIds: [002]
-    }
+    }   
+    #Palestra 01
     - {
-    	startTime: "09:00",
-    	endTime: "09:45",
-    	sessionIds: [004]
-    }
+        startTime: "15:30",
+        endTime: "16:25",
+        sessionIds: [003]
+    }  
+    #Intervalo
     - {
-    	startTime: "09:45",
-    	endTime: "10:15",
-    	sessionIds: [003]
+        startTime: "16:25",
+        endTime: "16:35",
+        sessionIds: [004]
+    }    
+    #Palestra 02  
+    - {
+    	startTime: "16:40",
+    	endTime: "17:35",
+    	sessionIds: [005]
     }
+    #credenciamento
+    - {
+        startTime: "18:00",
+        endTime: "18:30",
+        sessionIds: [006]
+    }
+    #Abertura - Palestra Conductor
+    - {
+        startTime: "18:30",
+        endTime: "19:25",
+        sessionIds: [007]
+    }   
+    #Palestra 01
+    - {
+        startTime: "19:30",
+        endTime: "20:25",
+        sessionIds: [008]
+    }  
+    #Intervalo
+    - {
+        startTime: "20:25",
+        endTime: "20:35",
+        sessionIds: [009]
+    }    
+    #Palestra 02  
+    - {
+        startTime: "20:40",
+        endTime: "21:35",
+        sessionIds: [010]
+    }    
 - 
   date: "2017-02-18"
   dateReadable: "18 de Fevereiro"
   tracks: 
-    - {title: "Hackathon", color: "#90be4e"}
+    - {title: "1º Dia do Hackathon", color: "#90be4e"}
   timeslots: 
+    #Credencimentao do Hackathon
     - {
-    	startTime: "08:00",
-    	endTime: "09:00",
-    	sessionIds: [001]
+        startTime: "08:00",
+        endTime: "08:30",
+        sessionIds: [011]
     }
+    #Coffebreak
     - {
-    	startTime: "09:00",
-    	endTime: "09:30",
-    	sessionIds: [002]
-    }
+        startTime: "08:30",
+        endTime: "09:30",
+        sessionIds: [012]
+    }   
+    #Apresentação da Conductor
     - {
         startTime: "09:30",
-        endTime: "10:00",
-        sessionIds: [003]
-    }
+        endTime: "10:30",
+        sessionIds: [013]
+    }  
+    #Setup
     - {
-    	startTime: "10:00",
-    	endTime: "10:00",
-    	sessionIds: [008]
+        startTime: "10:30",
+        endTime: "11:30",
+        sessionIds: [009]
+    }    
+    #Mãos na massa 
+    - {
+        startTime: "11:30",
+        endTime: "23:59",
+        sessionIds: [015]
     }
+    #Entre de formulário com as ideas 
+    - {
+        startTime: "22:00",
+        sessionIds: [016]
+    }    
+- 
+  date: "2017-02-19"
+  dateReadable: "19 de Fevereiro"
+  tracks: 
+    - {title: "2º Dia do Hackathon", color: "#90be4e"}
+  timeslots: 
+    #Continução do hackthon
+    - {
+        startTime: "00:00",
+        endTime: "10:00",
+        sessionIds: [017]
+    }
+    #Coffebreak
+    - {
+        startTime: "10:30",
+        endTime: "12:00",
+        sessionIds: [018]
+    }   

@@ -11,6 +11,35 @@
 	    background-position: 0 0px;
 	}
 }
+.logo-conductor-branca {
+    /* display: block; */
+    /* -webkit-transform: translateY(20px); */
+    /* transform: translateY(20px); */
+    /* -webkit-transition: all 0.3s; */
+    /* transition: all 0.3s; */
+    /* float: right; */
+    /* width: 305px; */
+    /* height: 44px; */
+    /* margin-right: 20px; */
+    /* margin-top: 7px; */
+    /* -webkit-transform: scale(0.7); */
+    transform: scale(0.7);
+    /* vertical-align: middle; */
+}
+
+.logo-header-conductor {
+    display: block;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-right: -198px !important;
+}
+
+.after-scroll .logo-header-conductor{
+    display: none;
+}
+
 .icon {
     display: inline-block;
     width: 16px;
