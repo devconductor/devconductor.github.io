@@ -215,9 +215,8 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
-aboutHackathonTitle: "Meet our themes"
 hackathonRows:
- - {title: "Como saber se você está “nos trinques” para o Hackaton?", image: "hackathon-0.png", details: "
+ - {title: "Como saber se você está “nos trinques” para o Hackaton?", details: "
 <p>Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara...é só se inscrever!</p>
 <ul>
   <li>Gosta bastante de programar?</li>
@@ -227,7 +226,7 @@ hackathonRows:
   <li>Quer conhecer uma empresa de tecnologia com uma cultura transformadora?</li>
   <li>Tem uma máquina pessoal pronta, com tudo que você precisa e gosta de usar, para que você consiga dar o seu show de desenvolvimento de software?</li>
 </ul>"}
- - {title: "O que você precisa fazer para se inscrever?", image: "hackathon-1.png", details: "
+ - {title: "O que você precisa fazer para se inscrever?", details: "
  <p>Não se aperreie não que a gente explica!</p>
  <ul>
   <li>Monte sua equipe ou “euquipe”!</li>
@@ -247,7 +246,7 @@ hackathonRows:
 
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
-judgesTitle: "Judges"
+judgesTitle: "Jurados"
 
 # Hackathon Prizes Block
 prizesTitle: "Prêmios"

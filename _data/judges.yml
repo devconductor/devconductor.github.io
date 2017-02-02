@@ -1,44 +1,42 @@
 - 
   id: 0
-  name: "Dmytro"
-  surname: "Danylyk"
-  company: "Lemberg Solutions Limited"
-  title: "Android Developer"
-  thumbnailUrl: AndreBaltieri.jpg
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
-    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
-    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+  name: "Carlor"
+  surname: "Biribilli"
+  company: "Conductor"
+  title: "Gerente de TI"
+  thumbnailUrl: CarlosBiribilli.jpg
 - 
   id: 1
-  name: "Vitaliy"
-  surname: "Zasadnyy"
-  company: "Nravo, GDG Lviv"
-  title: "Team Lead, Unity 3D Developer"
-  thumbnailUrl: AndreBaltieri.jpg
-  social: 
-    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
-    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
-    - {name: "github", link: "https://github.com/zasadnyy"}
-    - {name: "site", link: "http://zasadnyy.com/"}
+  name: "Daniel"
+  surname: "Barbosa"
+  company: "Conductor"
+  title: "Gerente de TI"
+  thumbnailUrl: DanielBarbosa.jpg
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  company: "ELEKS, GDG Lviv"
-  title: "R&D Engineer"
-  thumbnailUrl: AndreBaltieri.jpg
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
-    - {name: "twitter", link: "https://twitter.com/p1f"}
-    - {name: "site", link: "http://andrusiv.com/"}
+  name: "Édrei"
+  surname: "Costa"
+  company: "Conductor"
+  title: "Diretor Comercial"
+  thumbnailUrl: EdreiCosta.jpg  
 - 
   id: 3
-  name: "Oleh"
-  surname: "Zasadnyy"
-  company: "EPAM Systems, GDG Lviv"
-  title: "Junior Software Engineer"
-  thumbnailUrl: AndreBaltieri.jpg
-  social: 
-    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
-    - {name: "github", link: "https://github.com/ozasadnyy"}
+  name: "Pedro"
+  surname: "Albuquerque"
+  company: "Conductor"
+  title: "Gerente Comercial"
+  thumbnailUrl: PedroAlbuquerque.jpg
+- 
+  id: 4
+  name: "Alisson"
+  surname: "Brito"
+  company: "UFPB"
+  title: "Professor"
+  thumbnailUrl: AlissonBrito.jpg  
+- 
+  id: 5
+  name: "Thiago"
+  surname: "Moura"
+  company: "IFPB"
+  title: "Professor"
+  thumbnailUrl: ThiagoMoura.jpg  
