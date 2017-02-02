@@ -18,8 +18,8 @@ O Tech Experience é um evento único, composto por um ciclo de palestras com pr
 baseurl: ""
 url: "https://tex.conductor.com.br"
 permalink: "/blog/:title"
-googleAnalyticsTrackingId: "x"
-googleAnalyticsSiteUrl: "x"
+googleAnalyticsTrackingId: "UA-78205809-2"
+googleAnalyticsSiteUrl: "http://devconductor.github.io/"
 siteVerification: "x-wWpMYhFq-no"
 
 # Organizer Info
