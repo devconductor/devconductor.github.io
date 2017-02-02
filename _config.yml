@@ -69,13 +69,13 @@ heroButtons:
 # About Block
 aboutTitle: "Sobre o TECH Experince 2017"
 aboutBlock:
- - {title: "Paletras", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Paletras", image: "microfone.png", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
  - {title: "Hackathon", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "30 Vagas", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
- - {title: "Cursos", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "30 Vagas", image: "vagas.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Cursos", image: "book.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
 
 # Statistic Block
-statisticBlockImage: "statistic.jpg"
+statisticBlockImage: "numeros.jpg"
 statisticBlock:
  - {count: "3", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
  - {count: "24", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
