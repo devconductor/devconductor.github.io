@@ -78,7 +78,6 @@ aboutBlock:
 statisticBlockImage: "numeros.jpg"
 statisticBlock:
  - {count: "5", specialCharacter: "K+", info: "reais", detail: "em premiações"}
->>>>>>> 14ed3d665230dc539caa3772161f12a603e0013e
  - {count: "30", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
  - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Valuable Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de capacitação intensiva"}
