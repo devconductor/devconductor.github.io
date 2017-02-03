@@ -217,6 +217,9 @@ hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
+aboutHackathonTitle: "Inscrições a partir do próximo dia 08/02"
+aboutHackathonSubTitle: "Vagas limitadas!"
+
 hackathonRows:
  - {title: "Como saber se você está “nos trinques” para o Hackaton?", details: "
 <p>Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara...é só se inscrever!</p>
@@ -253,9 +256,10 @@ judgesTitle: "Jurados"
 # Hackathon Prizes Block
 prizesTitle: "Prêmios"
 prizes:
- - {title: "2º Lugar", image: "prize-2.png", info: "Mil Reais"}
- - {title: "1º Lugar", image: "prize-1.png", info: "Mil Reais"}
- - {title: "3º Lugar", image: "prize-3.png", info: "Mil Reais"}
+ - {title: "2º Lugar", image: "premio_2.jpg", info: "900 Reais"}
+ #- {title: "1º Lugar", image: "premio_1.jpg", info: "3 Mil Reais", plus: "+", subInfo: "Uma bolsa integral de um curso de inglês"}
+ - {title: "1º Lugar", image: "premio_2.jpg", info: "3 Mil Reais"}
+ - {title: "3º Lugar", image: "premio_2.jpg", info: "600 Reais"}
 
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Localização"
