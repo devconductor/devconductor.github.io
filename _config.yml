@@ -69,15 +69,16 @@ heroButtons:
 # About Block
 aboutTitle: "Sobre o TECH Experience 2017"
 aboutBlock:
- - {title: "Palestras", image: "microfone.png", text: "Sem blá blá blá! Nossas palestras irão passar informações úteis que te darão a possibilidade de enxergar novos horizontes. Venha adquirir conhecimento conosco!" }
- - {title: "Hackathon", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira! Claro que Network, comida à vontade e diversão não vão faltar. Traga seu time!" }
- - {title: "30 Vagas", image: "vagas.jpg", text: "Você vai participar de uma seleção que contratará 30 desenvolvedores para nossa filial em João Pessoa. Isso é oportunidade, aproveite-a!" }
- - {title: "Cursos", image: "book.jpg", text: "Capacitar é multiplicar! Serão 40h de curso Microsoft para os destaques do evento. Seja um!" }
+ - {title: "Palestras", image: "microfone.png", text: "Sem blá blá blá! Nossas palestras trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha adquirir conhecimento conosco!" }
+ - {title: "Hackathon", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
+ - {title: "30 Vagas", image: "vagas.jpg", text: "Você participará de uma seleção que irá contratar 30 desenvolvedores para nossa filial em João Pessoa. Uma oportunidade imperdível!" }
+ - {title: "Cursos", image: "book.jpg", text: "Capacitar é multiplicar! Serão 40h de curso Microsoft para os destaques do evento. Seja um deles!" }
 
 # Statistic Block
 statisticBlockImage: "numeros.jpg"
 statisticBlock:
- - {count: "5", specialCharacter: "+", info: "mil reais", detail: "em premiações"}
+ - {count: "5", specialCharacter: "K+", info: "reais", detail: "em premiações"}
+>>>>>>> 14ed3d665230dc539caa3772161f12a603e0013e
  - {count: "30", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
  - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Valuable Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de capacitação intensiva"}
