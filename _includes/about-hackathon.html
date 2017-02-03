@@ -2,7 +2,8 @@
 <section id="about-hackathon" class="about-hackathon">
     <div class="content-wrapper">
         <div class="col-md-8 col-md-offset-2">
-            <h3>{{ site.aboutHackathonTitle }}</h3>
+            <h3 class="title-hackathon">{{ site.aboutHackathonTitle }} <i class="glyphicon glyphicon-heart"></i> </h3>
+            <h5 class="subtitle-hackathon">{{ site.aboutHackathonSubTitle }}</h5>
             {% for row in site.hackathonRows %}
             {% assign check = forloop.index0 | modulo:2 %}
             <div class="hackathon-row col-md-12">
