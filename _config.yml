@@ -77,8 +77,8 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "numeros.jpg"
 statisticBlock:
- - {count: "3", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
- - {count: "24", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
+ - {count: "5", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
+ - {count: "30", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
  - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Value Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de treinamento intensivo"}
 
