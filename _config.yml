@@ -60,7 +60,7 @@ rightNavigationButtons:
 heroImage: "fachda_01.jpg"
 heroTitle: "TEX by Conductor | <typeout>"
 eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"", "Palestras", "Hackathon", "3K em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
+typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "5K+ em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
 typeoutFallback: "Hackathon"
 heroButtons:
  - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
@@ -77,10 +77,10 @@ aboutBlock:
 # Statistic Block
 statisticBlockImage: "numeros.jpg"
 statisticBlock:
- - {count: "5", specialCharacter: "K", info: "mil reais", detail: "em dinheiro"}
+ - {count: "5", specialCharacter: "K+", info: "mil reais", detail: "em premiações"}
  - {count: "30", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
  - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Value Professional"}
- - {count: "40", specialCharacter: "+", info: "horas", detail: "de treinamento intensivo"}
+ - {count: "40", specialCharacter: "+", info: "horas", detail: "de capacitação intensiva"}
 
 # Latest News Block
 latestNewsTitle: "Curiosidades"
@@ -114,7 +114,7 @@ venueSmallImage1: "venue_0.jpg"
 venueSmallImage2: "venue_1.jpg"
 venueSmallImage3: "venue_3.jpg"
 venueTitle: "Conductor Tecnologia"
-venueFeatures: ["Filial João Pessoa", "Localizado no Bairro dos Estados", "Estrutura moderna e acessível", "3KM do Mar"]
+venueFeatures: ["Filial João Pessoa", "Localizada no bairro Pedro Gondim", "Estrutura moderna e acessível", "3km do Mar"]
 
 # Tweets Feed Block
 tweetsFeedImage: "sala_desenv.jpg"
