@@ -85,7 +85,7 @@
 -
   id: 016
   title: "Formulário descrevendo sua idéia"
-  description: "Entregar formulário com as informações básicas sobre sua idéia. Estre formulário será distribuído pela Conductor."
+  description: "Entregar formulário com as informações básicas sobre sua idéia. Este formulário será distribuído pela Conductor."
   service: true
   subtype: hackathon  
 -
