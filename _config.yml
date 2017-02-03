@@ -49,7 +49,7 @@ navigationLinks:
  - {permalink: "/schedule/", text: "Programação"}
  - {permalink: "/speakers/", text: "Palestrantes"}
 # - {permalink: "/team/", text: "Team"}
-# - {permalink: "/logistics/", text: "Logistics"}
+# - {permalink: "/logistics/", text: "Logistics"} 
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackthon"}
@@ -64,13 +64,13 @@ typeoutTextValues: '"", "Palestras", "Hackthon", "3K em premiações", "30 vagas
 typeoutFallback: "Hackthon"
 heroButtons:
  - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
- - {permalink: "/#hackthon", text: "Hackthon"}
+ #- {permalink: "/hackathon", text: "Hackthon"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experince 2017"
 aboutBlock:
  - {title: "Palestras", image: "microfone.png", text: "Sem blá blá blá! Nossas palestras irão passar informações úteis que te darão a possibilidade de enxergar novos horizontes. Venha adquirir conhecimento conosco!" }
- - {title: "Hackathon", image: "workshop.jpg", text: "Um dia inteiro de conhecimento prático, aplicado à área de tecnologia, além de uma excelente oportunidade de fazer network! Traga seu time!" }
+ - {title: "Hackathon", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira! Claro que Network, comida à vontade e diversão não vão faltar. Traga seu time!" }
  - {title: "30 Vagas", image: "vagas.jpg", text: "Você vai estar participando de uma seleção que contratará 30 desenvolvedores para nossa filial em João Pessoa. Isso é oportunidade, aproveite-a!" }
  - {title: "Cursos", image: "book.jpg", text: "Capacitar é multiplicar! Serão 40h de curso Microsoft para os destaques do evento. Seja um!" }
 
@@ -135,9 +135,11 @@ subscribeInfo: "Lembre que as vagas são limitadas"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/conductor", icon: "google-plus"}
+ - {link: "https://plus.google.com/u/0/107714112382382283079", icon: "google-plus"}
  - {link: "https://twitter.com/intent/user?screen_name=conductor", icon: "twitter"}
  - {link: "https://pt-br.facebook.com/ConductorTecnologia/", icon: "facebook"}
+ - {link: "https://br.linkedin.com/company/conductor", icon: "linkedin"}
+ - {link: "https://www.instagram.com/conductortecnologia/", icon: "instagram"}
 footerBlocks:
  -
   title: "Links"
