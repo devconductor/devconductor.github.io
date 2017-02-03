@@ -82,6 +82,18 @@ statisticBlock:
  - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Value Professional"}
  - {count: "40", specialCharacter: "+", info: "horas", detail: "de capacitação intensiva"}
 
+# Numbers Block
+numberBlockImage: "nossos-numeros.jpg"
+numberBlock:
+ - {count: "45", specialCharacter: "+", info: "milhões", detail: "de cartoes cadastrados"}
+ - {count: "190", specialCharacter: "+", info: "milhões", detail: "de transações por ano"}
+ - {count: "18", specialCharacter: "+", info: "bilhões de reais", detail: "transacionados por ano"}
+ - {count: "350", specialCharacter: "+", info: "funcionários", detail: "em dois escritórios"}
+
+
+#Funcionários: 350+ 
+
+
 # Latest News Block
 latestNewsTitle: "Curiosidades"
 
