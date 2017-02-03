@@ -54,14 +54,14 @@
   speakers: [2]
 -
   id: 011
-  title: "Credencimentao do Hackathon"
+  title: "Credenciamento do Hackathon"
   description: "Hora de receber seu crachá e suas credenciais"
   service: true
   subtype: hackathon
 -
   id: 012
   title: "Café da manhã"
-  description: "Hora de comer bem e se prepara para maratona"
+  description: "Hora de comer bem e se preparar para maratona"
   service: true
   subtype: hackathon
 -
