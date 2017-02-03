@@ -2,7 +2,7 @@
   group: "Parceria"
   elements: 
     - {name: "Conductor", description: "Tecnologia em Meios de Pagamentos", link: "http://www.conductor.com.br", imageUrl: "conductor_logo.png"}
-    - {name: "Unipê", description: "Centro Universitário de João Pessoa", link: "http://unipe.br", imageUrl: "logo_unipe.png"}
+    - {name: "Unipê", description: "Centro Universitário de João Pessoa", link: "http://unipe.br", imageUrl: "logo_unipe.jpg"}
 - 
   group: "Apoio"
   elements: 
