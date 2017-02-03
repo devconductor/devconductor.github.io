@@ -28,7 +28,7 @@ organizerAlternateName: "Conductor Tecnologia em meios de pagamentos"
 organizerDescription: "Líder em meios de pagamentos"
 organizerEmail: "tex@conductor.com.br"
 organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+#organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
 metaKeywords: "cartão, meios de pagamentos, hackthon, hackday, hackweek"
@@ -38,8 +38,8 @@ socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 
 # Documents
-c4pUrl: "https://bit.ly/dfua-c4p"
-c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
 
 # Navigation
