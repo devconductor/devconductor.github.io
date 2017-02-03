@@ -5,10 +5,10 @@ date:   2017-02-02 17:20:00
 isStaticPost: false
 ---
 
-A Conductor Tecnologia busca constantemente promover um ambiente de trabalho leve e agradável, focando sempre na qualidade de vida de seus funcionários. Por isso, disponibilizamos lanches como pizzas, pães de frango, sanduíches, frutas, sucos, refrigerantes, picolés e saladas, além de pães fresquinhos que ficam muito bem acompanhados com as tão queridas máquinas de café. Tudo isso disposto num espaço descontraído e moderno onde nossos colaboradores trocam experiências e relaxam junto com os amigos.
+A Conductor é uma empresa com energia, criatividade e comprometimento com sua carreira e crescimento profissional, tudo isso dentro de um ambiente leve e agradável. 
 
-Nossas unidades seguem o mesmo padrão de espaço de trabalho bem distribuído e projetado, contando com cadeiras confortáveis e mesas amplas que promovem a colaboração constante entre as pessoas. Com um ambiente completamente climatizado, dispomos ainda de um conjunto de salas de reuniões que proporcionam tanto a iteração entre nossas unidades, por meio de salas de videoconferência, como facilitam o planejamento das atividades e a tomada de decisões.
+Já pensou vir trabalhar de bermuda, tomar um cafezinho com a gente e aproveitar a cafeteria free com opções saudáveis e outras nem tão saudáveis assim (pizza!) com os colegas de trabalho? 
 
-Por fim, toda última sexta-feira do mês proporcionamos um delicioso happy hour para que todos os colaboradores possam descontrair e ficarem cientes das mudanças, oportunidades e ações que vem sendo tomadas para o crescimento da empresa e de todo o time.
+Focados no bem estar das pessoas e guiados pela ética, incentivamos novas ideias, troca de conhecimento, autodesenvolvimento, colaboração, transparência e respeito mútuo. 
 
-Durante nossa Tech Experience você poderá conhecer e desfrutar um pouco deste excelente ambiente e sentir na pele a nossa cultura. Inscreva-se já!
+Aqui, buscamos crescer juntos de forma consciente para atingir nossa missão, estamos sempre conectados, atentos com o cliente e com o mercado, somos pilhados e buscamos sempre novidades para atender melhor os nossos clientes, somo rápidos e desafiados diariamente. Quer trabalhar com metodologias inovadoras?  Aprender coisas novas todos os dias?   #vempraconductor 

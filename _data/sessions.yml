@@ -8,7 +8,7 @@
   title: "Abertura"
   place: "Faculdade UNIPÊ"
   service: true
-  description: "Uma breve apresentação do que será apresentado e de quem está apresentando"
+  description: "Um breve bate-papo sobre o que será apresentado e sobre os palestrantes"
 -
   id: 003
   title: "Como a Cloud Computing tem transformado o mundo"
@@ -35,7 +35,7 @@
   title: "Abertura"
   place: "Faculdade UNIPÊ"
   service: true
-  description: "Uma breve apresentação do que será apresentado e de quem está apresentando"  
+  description: "Um breve bate-papo sobre o que será apresentado e sobre os palestrantes"  
 -
   id: 008
   title: "Microsoft Azure e a relevancia da Cloud Computing nos dias atuais"
