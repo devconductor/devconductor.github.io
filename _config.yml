@@ -16,7 +16,7 @@ description: "conhecimentos e ingressar no mercado de trabalho como profissionai
 
 O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
 baseurl: ""
-url: "https://tex.conductor.com.br"
+url: "http://tex.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-78205809-2"
 googleAnalyticsSiteUrl: "http://devconductor.github.io/"
