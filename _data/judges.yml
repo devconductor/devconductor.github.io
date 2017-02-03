@@ -24,14 +24,14 @@
   name: "Pedro"
   surname: "Albuquerque"
   company: "Conductor"
-  title: "Gerente Comercial"
+  title: "Comercial"
   thumbnailUrl: PedroAlbuquerque.jpg
 - 
   id: 4
   name: "Alisson"
   surname: "Brito"
   company: "UFPB"
-  title: "Professor"
+  title: "Professor e Consultor do Conductor Lab"
   thumbnailUrl: AlissonBrito.jpg  
 - 
   id: 5
