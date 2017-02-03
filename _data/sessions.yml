@@ -18,7 +18,7 @@
 -
   id: 004
   title: "Intervalo"
-  description: "O momento oportuno para trocar idéias com os palestrantes e os demais participantes"
+  description: "O momento oportuno para trocar ideias com os palestrantes e os demais participantes"
 -
   id: 005
   title: "Por que você deve estudar .NET em 2017?"
@@ -45,7 +45,7 @@
 -
   id: 009
   title: "Intervalo"
-  description: "O momento oportuno para trocar idéias com os palestrantes e os demais participantes"  
+  description: "O momento oportuno para trocar ideias com os palestrantes e os demais participantes"  
 -
   id: 010
   title: "Criando aplicações multi-plataforma com .NET Core em minutos"
@@ -84,8 +84,8 @@
   subtype: hackathon
 -
   id: 016
-  title: "Formulário descrevendo sua idéia"
-  description: "Entregar formulário com as informações básicas sobre sua idéia. Este formulário será distribuído pela Conductor."
+  title: "Formulário descrevendo sua ideia"
+  description: "Entregar formulário com as informações básicas sobre sua ideia. Este formulário será distribuído pela Conductor."
   service: true
   subtype: hackathon  
 -
