@@ -5,10 +5,10 @@ date:   2017-02-02 17:20:00
 isStaticPost: false
 ---
 
-A Conductor Tecnologia contribui para um ambiente leve e agradável, focando na qualidade de vida de seus funcionários. A mesma disponibiliza lanches (pizzas, pão de frango, sanduiches, frutas, sucos, refrigerantes, picolés, etc) e uma máquina de café à disposição, para que os colaboradores possam matar a vontade daquele velho e bom cafezinho entre amigos. Tudo isso em um espaço descontraído e moderno. 
+A Conductor Tecnologia busca constantemente promover um ambiente de trabalho leve e agradável, focando sempre na qualidade de vida de seus funcionários. Por isso, disponibilizamos lanches como pizzas, pães de frango, sanduíches, frutas, sucos, refrigerantes, picolés e saladas, além de pães fresquinhos que ficam muito bem acompanhados com as tão queridas máquinas de café. Tudo isso disposto num espaço descontraído e moderno onde nossos colaboradores trocam experiências e relaxam junto com os amigos.
 
-Além disso, a Empresa ainda oferece um espaço de trabalho climatizado e confortável com salas de reuniões estruturadas (contendo equipamentos inovadores) que proporcionam a interação entre as unidades e, deste modo, facilita o planejamento e tomada de decisões. Ainda pensando no bem-estar de seus colaboradores, a Empresa oferece uma área apropriada para os fumantes. 
+Nossas unidades seguem o mesmo padrão de espaço de trabalho bem distribuído e projetado, contando com cadeiras confortáveis e mesas amplas que promovem a colaboração constante entre as pessoas. Com um ambiente completamente climatizado, dispomos ainda de um conjunto de salas de reuniões que proporcionam tanto a iteração entre nossas unidades, por meio de salas de videoconferência, como facilitam o planejamento das atividades e a tomada de decisões.
 
-Como forma de coletar feedbacks e fornecer informações pertinentes às melhorias e oportunidades, a Empresa realiza um happy hour toda última sexta do mês. Deste modo, os colaboradores ficam cientes das oportunidades e ações a serem tomadas, bem como das sugestões inseridas no pilar do conhecimento – meio disponibilizado para que os recursos opinem, de maneira fácil e rápida.
+Por fim, toda última sexta-feira do mês proporcionamos um delicioso happy hour para que todos os colaboradores possam descontrair e ficarem cientes das mudanças, oportunidades e ações que vem sendo tomadas para o crescimento da empresa e de todo o time.
 
-Por fim, a decoração do escritório, bem como a sua distribuição foi devidamente planejada e, assim sendo, está fortemente relacionada com a saúde e bem-estar dos funcionários. Isso porque a empresa compra a ideia de que “quanto maior for o bem- estar de cada indivíduo, maior também será a sua produtividade”.
+Durante nossa Tech Experience você poderá conhecer e desfrutar um pouco deste excelente ambiente e sentir na pele a nossa cultura. Inscreva-se já!
