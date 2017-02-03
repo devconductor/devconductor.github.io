@@ -90,13 +90,13 @@
   subtype: hackathon  
 -
   id: 017
-  title: "Continuação do Hackthon"
-  description: "2º dia do Hackthon"
+  title: "Continuação do Hackathon"
+  description: "2º dia do Hackathon"
   service: true
   subtype: hackathon   
 -
   id: 018
-  title: "Apresentação final do Hackthon"
+  title: "Apresentação final do Hackathon"
   description: "Chegou a hora 'H'"
   service: true
   subtype: hackathon     

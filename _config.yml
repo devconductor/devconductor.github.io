@@ -52,7 +52,7 @@ navigationLinks:
 # - {permalink: "/logistics/", text: "Logistics"} 
  - {permalink: "/hackathon/", text: "Hackathon"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Hackthon"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
  - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
 
@@ -60,11 +60,11 @@ rightNavigationButtons:
 heroImage: "fachda_01.jpg"
 heroTitle: "TEX by Conductor | <typeout>"
 eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"", "Palestras", "Hackthon", "3K em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
-typeoutFallback: "Hackthon"
+typeoutTextValues: '"", "Palestras", "Hackathon", "3K em premiações", "30 vagas", "Cafeina", "Network", "Cloud Computing", ".NET Core"'
+typeoutFallback: "Hackathon"
 heroButtons:
  - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
- #- {permalink: "/hackathon", text: "Hackthon"}   
+ #- {permalink: "/hackathon", text: "Hackathon"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experince 2017"
