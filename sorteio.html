@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" href="css/sorteio.css" />
+</head>
+
+<body ng-app="sorteio">
+    <section class="hero">
+        <div class="hero-body has-text-centered">
+            <div class="container">
+                <h1 class="title">
+                    Tech Experience Hackathon
+                </h1>
+                <h2 class="subtitle">
+                    Sorteio das equipes para apresenta&ccedil;&atilde;o
+                </h2>
+            </div>
+        </div>
+    </section>
+    <section class="section" ng-controller="sorteioCtrl">
+        <div class="columns">
+            <div class="column is-half is-offset-one-quarter">
+                <h1 class="title box button has-text-centered" ng-click="sortear()" style="padding-left: 0px">
+                    <span ng-if="sorteando">Sorteando: {{equipeSelecionada}}</span>
+                    <span ng-if="!sorteando && equipeSelecionada">Equipe Selecionada: <b>{{equipeSelecionada}}</b></span>
+                    <span ng-if="!sorteando && !equipeSelecionada">Clique aqui para selecionar a primeira equipe!</span>
+                </h1>
+            </div>
+            <div class="column has-text-right">
+                <input type="submit" class="button" value="&#9851;" ng-click="limpar()" />
+            </div>
+
+        </div>
+        <div class="columns">
+            <div class="column">
+                <div class="panel">
+                    <p class="panel-heading">
+                        GRUPOS PARA APRESENTA&Ccedil;&Atilde;O
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Equipe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="e in equipes" ng-click="escolherEquipe($index)" class="linha-equipe">
+                                <td>{{e.nome}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="column">
+                <div class="panel">
+                    <p class="panel-heading">
+                        ORDEM DE APRESENTA&Ccedil;&Atilde;O
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Sequencia</th>
+                                <th>Equipe</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="e in equipesApresentacao">
+                                <th>{{e.sequencia}}</th>
+                                <td>{{e.nome}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <div class="al-footer-right">by Squad Inova&ccedil;&atilde;o <span class="heart pulse">❤</span></div>
+                <div class="al-footer-main clearfix">
+                    <div class="al-copy">CONDUCTOR Tecnologia</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/angular.min.js"></script>
+    <script language="javascript" src="js/sorteio.js"></script>
+</body>
+
+</html>

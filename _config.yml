@@ -1,0 +1,287 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "TECH Experience 2017 by Conductor"
+email: "tex@conductor.com.br"
+description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
+
+O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
+baseurl: ""
+url: "http://tex.conductor.com.br"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-78205809-2"
+googleAnalyticsSiteUrl: "http://devconductor.github.io/"
+siteVerification: "7DEq0vDwrGmohdXsfkFsTw0RJwpDu6x1gnRem2Xja8U"
+
+# Organizer Info
+organizerName: "Conductor"
+organizerAlternateName: "Conductor Tecnologia em meios de pagamentos"
+organizerDescription: "Líder em meios de pagamentos"
+organizerEmail: "tex@conductor.com.br"
+organizerLogo: "/img/seo/organizer-logo.png"
+#organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "cartão, meios de pagamentos, hackthon, hackday, hackweek"
+twitterAccount: "@devconductor"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+#c4pUrl: "https://bit.ly/dfua-c4p"
+#c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Início"}
+ - {permalink: "/schedule/", text: "Programação"}
+ - {permalink: "/speakers/", text: "Palestrantes"}
+ - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/aovivo/", text: "Ao Vivo"}
+bottomNavigationLinks:
+ - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
+rightNavigationButtons:
+ #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ - {link: "/aovivo", text: "ASSISTA AO VIVO"}
+
+# Hero Block
+heroImage: "banner-site-tex.png"
+heroTitle: "TEX by Conductor | <typeout>"
+eventDate: "08, 18 e 19 de Fevereiro de 2017"
+typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "40h de capacitação", "5K+ em premiações", "Cafeína", "Pizza", "Energético", "Network", "Cloud Computing", ".NET Core"'
+typeoutFallback: "Hackathon"
+heroButtons:
+ #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
+ - {permalink: "/aovivo", text: "ASSISTA AO VIVO"}   
+
+# About Block
+aboutTitle: "Sobre o TECH Experience 2017"
+aboutBlock:
+ - {title: "Palestras", image: "microfone.png", text: "Sem blá blá blá! Nossas palestras trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha adquirir conhecimento conosco!" }
+ - {title: "Hackathon", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
+ - {title: "30 Vagas", image: "vagas.jpg", text: "Você participará de uma seleção que irá contratar 30 desenvolvedores para nossa filial em João Pessoa. Uma oportunidade imperdível!" }
+ - {title: "Cursos", image: "book.jpg", text: "Capacitar é multiplicar! Serão 40h de curso Microsoft para os destaques do evento. Seja um deles!" }
+
+# Statistic Block
+statisticBlockImage: "numeros.jpg"
+statisticBlock:
+ - {count: "5", specialCharacter: "K+", info: "reais", detail: "em premiações"}
+ - {count: "30", specialCharacter: "+", info: "horas", detail: "de pura tecnologia"}
+ - {count: "4", specialCharacter: "", info: "palestras", detail: "Microsoft Most Valuable Professional"}
+ - {count: "40", specialCharacter: "+", info: "horas", detail: "de capacitação intensiva"}
+
+# Numbers Block
+numberBlockImage: "nossos-numeros.jpg"
+numberBlock:
+ - {count: "45", specialCharacter: "+", info: "milhões", detail: "de cartões cadastrados"}
+ - {count: "190", specialCharacter: "+", info: "milhões", detail: "de transações por ano"}
+ - {count: "18", specialCharacter: "+", info: "bilhões de reais", detail: "transacionados por ano"}
+ - {count: "350", specialCharacter: "+", info: "funcionários", detail: "em dois escritórios"}
+
+
+#Funcionários: 350+ 
+
+
+# Latest News Block
+latestNewsTitle: "Curiosidades"
+
+# Rockstar Speakers Block
+rockstarSpeakersImage: "equipe_cdt.jpg"
+rockstarSpeakersCount: 4
+rockstarSpeakersTitle: "Palestrantes"
+rockstarSpeakersButtonText: "Conheça os palestrantes"
+
+# Location Block
+locationBlockTitle: "Localização"
+eventLocationName: "Faculdade UNIPÊ"
+eventLocationLink: "https://www.google.com.br/maps/place/Centro+Universit%C3%A1rio+de+Jo%C3%A3o+Pessoa+-+UNIPE/@-7.1588197,-34.8570177,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc28768dfbfe7:0x87595d8fdc596d74!8m2!3d-7.158825!4d-34.854829"
+eventStreetAddress: "Rodovia BR-230, KM 22, s/n - Água Fria"
+eventAddressLocality: "João Pessoa"
+eventAddressLocalityRegion: "João Pessoa"
+eventPostalCode: "58053-000"
+eventAddressCountry: "Paraíba"
+eventStartTime: "2017-02-08T14:00"
+eventDoorTime: "23:00"
+eventEndTime: "2017-02-08T21:35"
+eventPlaceCoordinates: "-7.1588197,-34.8570177"
+mapCenterCoordinates: "-7.1588197,-34.8570177"
+mapMobileCenterCoordinates: "-7.1588197,-34.8570177"
+
+# Venue Block
+venueBlockTitle: "Local"
+venueBigImage: "venue_2.jpg"
+venueSmallImage1: "venue_0.jpg"
+venueSmallImage2: "venue_1.jpg"
+venueSmallImage3: "venue_3.jpg"
+venueTitle: "Conductor Tecnologia"
+venueFeatures: ["Filial João Pessoa", "Localizada no bairro Pedro Gondim", "Estrutura moderna e acessível", "3km do Mar"]
+
+# Tweets Feed Block
+tweetsFeedImage: "sala_desenv.jpg"
+tweetsFeedTitle: "Siga a hashtag"
+twitterHashTag: "conductorTex2017"
+#twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+
+# Partners Block
+organizersTitle: "Realização"
+#partnersTitle: "Parceiros"
+#partnersC4sponsorsButton: "Seja um patrocinador"
+
+# Subscribe Block
+subscribeImage: "subscribe.jpg"
+subscribeTitle: "Garanta logo a sua vaga"
+subscribeAction: "https://pt.surveymonkey.com/r/texconductor"
+subscribeInfo: "Lembre que as vagas são limitadas"
+
+# Footer
+socialLinks:
+ - {link: "https://plus.google.com/u/0/107714112382382283079", icon: "google-plus"}
+ - {link: "https://twitter.com/intent/user?screen_name=conductor", icon: "twitter"}
+ - {link: "https://pt-br.facebook.com/ConductorTecnologia/", icon: "facebook"}
+ - {link: "https://br.linkedin.com/company/conductor", icon: "linkedin"}
+ - {link: "https://www.instagram.com/conductortecnologia/", icon: "instagram"}
+footerBlocks:
+ -
+  title: "Links"
+  links:
+   - {link: "http://www.conductor.com.br", text: "Conductor Tecnologia"}
+   - {link: "https://pierlabs.io", text: "PIER {Labs}"}
+ -
+  title: "Contato"
+  links:
+   - {link: "mailto:tex@conductor.com.br", text: "tex@conductor.com.br"}
+ -
+  #title: "FAQ"
+  #links:
+  # - {permalink: "/cod/", text: "Perguntas Frequêntes"}
+
+# Blog
+blogTitle: "Últimas Novidades"
+blogCommentsEnabled: true
+discusShortName: "tex-conductor-com-br"
+
+# Speakers List Block
+showSessions: true
+
+# Team Block
+#teamBlockTitle: "About us"
+#aboutUs: "Google's services have become synonymous with simple things online. Number of technological innovations and IT industries in which Google is creating new products is enormous. It's hard to get to know all of them, but realistic. This is why people have started to gather in small local groups and share their experience. Later, the following groups have been called Google Developer Groups. GDGs can take many forms -- from just a few people getting together to watch some videos, to large gatherings with demos, tech talks, hackathons and conferences."
+
+# Logistics Find Way Block
+findWayTitle: "Find your way here"
+findWayDistance: "Distance"
+findWayDriving: "DRIVING"
+findWayWalking: "WALKING"
+findWayBicycling: "BICYCLING"
+findWayTransit: "TRANSIT"
+findWayFindFlight: "Find Flight"
+logisticsMapCenterCoordinates: "49.056728, 3.117289"
+logisticsMapMobileCenterCoordinates: "48.335365, 23.711648"
+logisticsMapAutoDirections: false
+
+# Logistics Direction Details Block
+directionDetailsImage: "direction-details.jpg"
+directionDetailsTitle: "Get around Lviv"
+directionDetailsCards:
+ - {title: "From the Airport", information: 'Airport is right at the city border. It is easily reachable by car, public transport or taxi. More information is available at <a href="http://lwo.aero/en/transport">airport website</a>.'}
+ - {title: "Public Transit", information: 'Google Transit is available in Lviv. So you can find your way in Google Maps. Moreover, you can download any of the offline public transit apps available for Lviv.'}
+ - {title: "Hotels", information: 'Lviv has lots of great hotels and hostels. More information will be available later.'}
+directionDetailsWideCards:
+ -
+  title: "Questions?"
+  subCards:
+   -
+    title: "Hotels"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Registration"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+   -
+    title: "Attendance Details"
+    links:
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "InterContinental"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "The Hotel Rex"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Westin Market Street"}
+     - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
+
+# Hackathon
+hackathonTitle: "Hackathon"
+enableHackathon: true
+
+# Hackathon About Block
+aboutHackathonTitle: "Inscrições Abertas!"
+aboutHackathonSubTitle: "Vagas limitadas! <div class='hackathon-row col-md-12'><br/><a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Regulamento</a><a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a></div> "
+
+hackathonRows:
+ - {title: "Como saber se você está “nos trinques” para o Hackaton?", details: "
+<p>Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara... é só se inscrever!</p>
+<ul>
+  <li>Gosta bastante de programar?</li>
+  <li>Gosta de desafios?</li>
+  <li>Gosta de trabalhar em equipe?</li>
+  <li>Domina alguma linguagem de programação?</li>
+  <li>Quer conhecer uma empresa de tecnologia com uma cultura transformadora?</li>
+  <li>Tem uma máquina pessoal pronta, com tudo que você precisa e gosta de usar, para que você consiga dar o seu show de desenvolvimento de software?</li>
+</ul>"}
+ - {title: "O que você precisa fazer para se inscrever?", details: "
+ <p>Não se aperreie não que a gente explica!</p>
+ <ul>
+  <li>Monte sua equipe ou “euquipe”!</li>
+  <li>Você pode participar individualmente ou em equipe. Se a escolha for em equipe, essa deve ser composta por, no máximo, 3 pessoas e deve ser montada antes do evento e será formalizada no momento da inscrição.</li>
+  <li>Inscreva-se no evento! Se for em uma equipe, cada um deve realizar sua inscrição.</li>
+ </ul>
+ </br>
+ <p>Eita! E como será o Hackaton? </p>
+<ul>
+  <li>Um tema será lançado e as equipes inscritas deverão formular uma ideia e, literalmente, desenvolvê-la.</li>
+  <li>A tecnologia utilizada?  Vocês escolhem!</li>
+  <li>Vocês poderão desenvolver um produto desktop, mobile ou web... vocês escolhem!</li>
+  <li>Ao final do evento, a equipe deverá apresentar o projeto para os jurados. Vocês terão 5 minutos para apresentar o projeto e os jurados terão 5 minutos para questionamentos. </li>
+  <li>Caprichem no produto! Cresçam na apresentação! Conquistem os jurados!</li>
+</ul>
+ "}
+
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Jurados"
+
+# Hackathon Prizes Block
+prizesTitle: "Prêmios"
+prizes:
+ - {title: "2º Lugar", image: "premio_2.jpg", info: "900 Reais"}
+ - {title: "1º Lugar", image: "premio_2.jpg", info: "3 Mil Reais"}
+ - {title: "3º Lugar", image: "premio_2.jpg", info: "600 Reais"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Localização"
+hackathonLocationName: "Conductor Filial João Pessoa"
+hackathonLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
+hackathonStreetAddress: "R. Antônio Régis de Brito, 15"
+hackathonAddressLocality: "João Pessoa"
+hackathonAddressLocalityRegion: "João Pessoa"
+hackathonPostalCode: "58031-106"
+hackathonAddressCountry: "Paraíba"
+hackathonTimeTitle: "Horário do evento: 08:00 do dia 18/02 até às 12:00 do dia 19/02"
+viewOnMap: "Ver no Google Maps"
+hackathonPlaceCoordinates: "-7.11245422,-34.84339078"
+hackathonMapCenterCoordinates: "-7.11245422,-34.84339078"
+hackathonMapMobileCenterCoordinates: "-7.11245422,-34.84339078"

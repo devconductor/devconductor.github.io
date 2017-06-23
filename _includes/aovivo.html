@@ -1,0 +1,37 @@
+<style>
+	#youtube-embbeded {
+		position: absolute;
+		top: 100px;
+		width: 100%;
+		margin: auto;
+		z-index: 10000;
+	}
+	#youtube-container{
+		margin-top: 140px;
+	}
+</style>
+
+
+<section id="youtube-embbeded">
+	<div class="col-lg-6 col-lg-offset-3">
+		<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item"  src="http://www.youtube.com/embed/8vDaDVqbq60=white&theme=light&controls=2" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>
+		</div>
+	</div>
+</section>
+
+<section id="youtube-container">
+	<div class="col-lg-6 col-lg-offset-3">
+		<div id="disqus_thread"></div>
+		<script>
+		var disqus_developer = 1; 		
+		(function() { 
+			var d = document, s = d.createElement('script');
+			s.src = 'http://texconductor.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	</div>
+</section>
