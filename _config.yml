@@ -8,9 +8,8 @@ markdown: kramdown
 permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
-
 # Site Settings
-title: "TECH Experience 2017 by Conductor"
+title: "TECH Experience with Conductor"
 email: "tex@conductor.com.br"
 description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
 
@@ -41,37 +40,35 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 #c4pUrl: "https://bit.ly/dfua-c4p"
 #c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
 
-
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Início"}
- - {permalink: "/schedule/", text: "Programação"}
- - {permalink: "/speakers/", text: "Palestrantes"}
- - {permalink: "/hackathon/", text: "Hackathon"}
- - {permalink: "/aovivo/", text: "Ao Vivo"}
+ - {permalink: "/talks/", text: "Talks"}
+ - {permalink: "/hackathon/", text: "Hackathons"}
+ - {permalink: "/sejaconductor/", text: "Seja Conductor"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Hackathons"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "/aovivo", text: "ASSISTA AO VIVO"}
+ - {link: "/sejaconductor", text: "SEJA CONDUCTOR"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
-heroTitle: "TEX by Conductor | <typeout>"
+heroTitle: "TEX with Conductor | <typeout>"
 eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"João Pessoa", "Palestras", "Hackathon", "40h de capacitação", "5K+ em premiações", "Cafeína", "Pizza", "Energético", "Network", "Cloud Computing", ".NET Core"'
-typeoutFallback: "Hackathon"
+typeoutTextValues: '"Talks", "Hackathons", "Capacitação", "Premiações", "Cafeína", "Pizza", "Energético", "Networking"'
+typeoutFallback: "Hackathons"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "/aovivo", text: "ASSISTA AO VIVO"}   
+ - {permalink: "/sejaconductor", text: "SEJA CONDUCTOR"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experience 2017"
 aboutBlock:
- - {title: "Palestras", image: "microfone.png", text: "Sem blá blá blá! Nossas palestras trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha adquirir conhecimento conosco!" }
- - {title: "Hackathon", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
- - {title: "30 Vagas", image: "vagas.jpg", text: "Você participará de uma seleção que irá contratar 30 desenvolvedores para nossa filial em João Pessoa. Uma oportunidade imperdível!" }
- - {title: "Cursos", image: "book.jpg", text: "Capacitar é multiplicar! Serão 40h de curso Microsoft para os destaques do evento. Seja um deles!" }
+ - {title: "Talks", image: "microfone.png", text: "Sem blá blá blá! Nossas talks trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha construir conhecimento conosco!" }
+ - {title: "Hackathons", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
+ - {title: "Treinamentos", image: "book.jpg", text: "Capacitar é multiplicar! Assuntos diversos e com uma abordagem prática, sem mimimi e direto ao ponto!" }
+ - {title: "Vagas", image: "vagas.jpg", text: "Sorria! Você está sendo filmado e recrutado. Esquece a entrevista formal e bate um papo conosco. Uma oportunidade imperdível!" }
 
 # Statistic Block
 statisticBlockImage: "numeros.jpg"
@@ -89,9 +86,7 @@ numberBlock:
  - {count: "18", specialCharacter: "+", info: "bilhões de reais", detail: "transacionados por ano"}
  - {count: "350", specialCharacter: "+", info: "funcionários", detail: "em dois escritórios"}
 
-
 #Funcionários: 350+ 
-
 
 # Latest News Block
 latestNewsTitle: "Curiosidades"
@@ -103,23 +98,23 @@ rockstarSpeakersTitle: "Palestrantes"
 rockstarSpeakersButtonText: "Conheça os palestrantes"
 
 # Location Block
-locationBlockTitle: "Localização"
-eventLocationName: "Faculdade UNIPÊ"
-eventLocationLink: "https://www.google.com.br/maps/place/Centro+Universit%C3%A1rio+de+Jo%C3%A3o+Pessoa+-+UNIPE/@-7.1588197,-34.8570177,17z/data=!3m1!4b1!4m5!3m4!1s0x7acc28768dfbfe7:0x87595d8fdc596d74!8m2!3d-7.158825!4d-34.854829"
-eventStreetAddress: "Rodovia BR-230, KM 22, s/n - Água Fria"
+locationBlockTitle: "Onde Estamos?"
+eventLocationName: "João Pessoa"
+eventLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1123877,-34.8454266,17z/data=!4m13!1m7!3m6!1s0x7acdd46df24ebfb:0x73f4f8d838087f27!2sR.+Ant%C3%B4nio+R%C3%A9gis+de+Brito,+15+-+Pedro+Gondim,+Jo%C3%A3o+Pessoa+-+PB!3b1!8m2!3d-7.1123877!4d-34.8432379!3m4!1s0x7acdd46de96eecf:0x4151e5a8e7df7079!8m2!3d-7.1122603!4d-34.8434105"
+eventStreetAddress: "R. Antônio Régis de Brito, 15 - Pedro Gondim"
 eventAddressLocality: "João Pessoa"
 eventAddressLocalityRegion: "João Pessoa"
-eventPostalCode: "58053-000"
+eventPostalCode: "58031-106"
 eventAddressCountry: "Paraíba"
 eventStartTime: "2017-02-08T14:00"
 eventDoorTime: "23:00"
-eventEndTime: "2017-02-08T21:35"
-eventPlaceCoordinates: "-7.1588197,-34.8570177"
-mapCenterCoordinates: "-7.1588197,-34.8570177"
-mapMobileCenterCoordinates: "-7.1588197,-34.8570177"
+eventEndTime: "2017-02-08T21:30"
+eventPlaceCoordinates: "-7.1123877,-34.8454266"
+mapCenterCoordinates: "-7.1123877,-34.8454266"
+mapMobileCenterCoordinates: "-7.1123877,-34.8454266"
 
 # Venue Block
-venueBlockTitle: "Local"
+venueBlockTitle: "Nossa Casa"
 venueBigImage: "venue_2.jpg"
 venueSmallImage1: "venue_0.jpg"
 venueSmallImage2: "venue_1.jpg"
@@ -130,19 +125,19 @@ venueFeatures: ["Filial João Pessoa", "Localizada no bairro Pedro Gondim", "Est
 # Tweets Feed Block
 tweetsFeedImage: "sala_desenv.jpg"
 tweetsFeedTitle: "Siga a hashtag"
-twitterHashTag: "conductorTex2017"
+twitterHashTag: "conductorTex"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Realização"
+organizersTitle: "Tecnologias"
 #partnersTitle: "Parceiros"
 #partnersC4sponsorsButton: "Seja um patrocinador"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Garanta logo a sua vaga"
+subscribeTitle: "Seja Conductor..."
 subscribeAction: "https://pt.surveymonkey.com/r/texconductor"
-subscribeInfo: "Lembre que as vagas são limitadas"
+subscribeInfo: "Deafios, oportunidades e reconhecimento!!!!"
 
 # Footer
 socialLinks:
@@ -224,7 +219,7 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
-hackathonTitle: "Hackathon"
+hackathonTitle: "Hackathons"
 enableHackathon: true
 
 # Hackathon About Block
@@ -260,9 +255,38 @@ hackathonRows:
 </ul>
  "}
 
+ # Talks
+talksTitle: "Talks"
+enableTalks: true
+
+# Talks About Block
+aboutTalksTitle: "Talks???"
+aboutTalksSubTitle: "Vamos bater papo sobre TECH? <br/> <p>Mensalmente iremos ter um momento de compartilhamento de conhecimento para os diversos assuntos sobre TECH.</p><br/>
+<p>Sem rodeios... Teremos 03 talks de temas a serem submetidos a guild de conhecimento, a cada primeira sexta feira do mês, neles discutiremos sobre o assunto e alinharemos o conhecimento da nossa equipe.</p>
+<div class='hackathon-row col-md-12'>
+  <br/>
+  <a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Submeta seu Talks</a>
+  <a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a>
+</div> "
+
+talksRows:
+ - {title: "Dicas para submissão de Talks!", 
+    details: "<p>ANALISE A GRADE DE PALESTRAS DAS EDIÇÕES ANTERIORES E INVISTA TEMPO NA ESCOLHA DO TEMA E TÍTULO </p>
+              <p>LEVE A SÉRIO: peça aos amigos para fazerem uma leitura crítica do texto e claro, uma boa revisão ortográfica e escreva uma descrição legal da palestra, não apenas uma linha.</p> 
+              <p>MINI BIOGRAFIA COERENTE COM O TEMA DA PALESTRA: Procure enviar uma mini biografia que seja coerente com a palestra submetida. Pegar aquela minibio que você usa há 5 anos e está desatualizada reduz as suas chances de vitória! </p>
+              <p>SEJA CRIATIVO E NÃO BLEFE. Submeta palestras sobre os assuntos que você tem conhecimento e experiência. Assim, teremos um evento melhor para todos. </p>
+              <p>O passo mais importante para ser aprovado como palestrante é sem dúvida nenhuma submeter pelo menos uma palestra. Então, independente de qualquer coisa, participe, arrisque, divulgue. </p>
+
+              <p>Aguardamos você! Não deixe de participar! </p>"
+  }
+
 # Hackathon Judges Block
 judgesImage: "judges.jpg"
 judgesTitle: "Jurados"
+
+# Talks Guild Members Block
+guild-membersImage: "judges.jpg"
+guild-membersTitle: "Guild Conhecimento"
 
 # Hackathon Prizes Block
 prizesTitle: "Prêmios"
