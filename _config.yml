@@ -129,9 +129,7 @@ twitterHashTag: "conductorTex"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
-organizersTitle: "Tecnologias"
-#partnersTitle: "Parceiros"
-#partnersC4sponsorsButton: "Seja um patrocinador"
+organizersTitle: "Parceiros"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
@@ -255,7 +253,37 @@ hackathonRows:
 </ul>
  "}
 
- # Talks
+# Hackathon Judges Block
+judgesImage: "judges.jpg"
+judgesTitle: "Jurados"
+
+# Hackathon Prizes Block
+prizesTitle: "Prêmios"
+prizes:
+ - {title: "2º Lugar", image: "premio_2.jpg", info: "900 Reais"}
+ - {title: "1º Lugar", image: "premio_2.jpg", info: "3 Mil Reais"}
+ - {title: "3º Lugar", image: "premio_2.jpg", info: "600 Reais"}
+
+# Hackathon Location Block
+hackathonLocationBlockTitle: "Localização"
+hackathonLocationName: "Conductor Filial João Pessoa"
+hackathonLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
+hackathonStreetAddress: "R. Antônio Régis de Brito, 15"
+hackathonAddressLocality: "João Pessoa"
+hackathonAddressLocalityRegion: "João Pessoa"
+hackathonPostalCode: "58031-106"
+hackathonAddressCountry: "Paraíba"
+hackathonTimeTitle: "Horário do evento: 08:00 do dia 18/02 até às 12:00 do dia 19/02"
+viewOnMap: "Ver no Google Maps"
+hackathonPlaceCoordinates: "-7.11245422,-34.84339078"
+hackathonMapCenterCoordinates: "-7.11245422,-34.84339078"
+hackathonMapMobileCenterCoordinates: "-7.11245422,-34.84339078"
+
+
+###########################################################
+###################### Talks ##############################
+###########################################################
+
 talksTitle: "Talks"
 enableTalks: true
 
@@ -280,32 +308,19 @@ talksRows:
               <p>Aguardamos você! Não deixe de participar! </p>"
   }
 
-# Hackathon Judges Block
-judgesImage: "judges.jpg"
-judgesTitle: "Jurados"
-
 # Talks Guild Members Block
-guild-membersImage: "judges.jpg"
-guild-membersTitle: "Guild Conhecimento"
+taskGuildMembersImage: "guilds.jpg"
+taskGuildMembersTitle: "Guild Conhecimento"
 
-# Hackathon Prizes Block
-prizesTitle: "Prêmios"
-prizes:
- - {title: "2º Lugar", image: "premio_2.jpg", info: "900 Reais"}
- - {title: "1º Lugar", image: "premio_2.jpg", info: "3 Mil Reais"}
- - {title: "3º Lugar", image: "premio_2.jpg", info: "600 Reais"}
+talksOrganizersTitle: "Apoio"
+#partnersTitle: "Parceiros"
+#partnersC4sponsorsButton: "Seja um patrocinador"
 
-# Hackathon Location Block
-hackathonLocationBlockTitle: "Localização"
-hackathonLocationName: "Conductor Filial João Pessoa"
-hackathonLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
-hackathonStreetAddress: "R. Antônio Régis de Brito, 15"
-hackathonAddressLocality: "João Pessoa"
-hackathonAddressLocalityRegion: "João Pessoa"
-hackathonPostalCode: "58031-106"
-hackathonAddressCountry: "Paraíba"
-hackathonTimeTitle: "Horário do evento: 08:00 do dia 18/02 até às 12:00 do dia 19/02"
-viewOnMap: "Ver no Google Maps"
-hackathonPlaceCoordinates: "-7.11245422,-34.84339078"
-hackathonMapCenterCoordinates: "-7.11245422,-34.84339078"
-hackathonMapMobileCenterCoordinates: "-7.11245422,-34.84339078"
+#Talks Partners
+#talksPartnersTitle: "Parceiros"
+#talksPartnersC4sponsorsButton: "Seja um patrocinador"
+
+# Blog
+#talksBlogTitle: "Últimas Novidades"
+#talksBlogCommentsEnabled: true
+#talksDiscusShortName: "tex-conductor-com-br"
