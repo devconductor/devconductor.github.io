@@ -1,0 +1,25 @@
+- 
+  group: ""
+  elements: 
+    - {name: "Amazon", imageUrl: "amazonwebservices-logo.png"}
+    - {name: "Bower", imageUrl: "bower-logo.png"}
+    - {name: "GitLab", imageUrl: "gitlab-ico.png"}
+    - {name: "Microsoft", imageUrl: "microsoft.svg"}
+    - {name: "Sass", imageUrl: "sass-logo.svg"}
+    - {name: "Angular", imageUrl: "angular-logo.svg"}
+    - {name: "Docker", imageUrl: "docker-logo.png"}
+    - {name: "GitLab", imageUrl: "gitlab-logo.svg"}
+    - {name: "Node", imageUrl: "node-logo.svg"}
+    - {name: "Spring", imageUrl: "spring logo.png"}
+    - {name: "Azure", imageUrl: "azure-ico.png"}
+    - {name: "Docker", imageUrl: "docker.svg"}
+    - {name: "Grunt", imageUrl: "grunt-logo.svg"}
+    - {name: "npm", imageUrl: "npm-logo.png"}
+    - {name: "Swagger", imageUrl: "swagger-logo.png"}
+    - {name: "Bootstrap", imageUrl: "bootstrap-icon.svg"}
+    - {name: "Duke", imageUrl: "duke-mascot.png"}
+    - {name: "Javascript", imageUrl: "javascript-logo.png"}
+    - {name: "Rancher", imageUrl: "rancher-logo.png"}
+    - {name: "Tomcat", imageUrl: "tomcat-logo.svg"}
+
+

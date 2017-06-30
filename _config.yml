@@ -45,12 +45,12 @@ navigationLinks:
  - {permalink: "/", text: "Início"}
  - {permalink: "/talks/", text: "Talks"}
  - {permalink: "/hackathon/", text: "Hackathons"}
- - {permalink: "/sejaconductor/", text: "Seja Conductor"}
+ - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 bottomNavigationLinks:
  - {link: "https://bit.ly/dfua-c4p", text: "Hackathons"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "/sejaconductor", text: "SEJA CONDUCTOR"}
+ - {link: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
@@ -60,7 +60,7 @@ typeoutTextValues: '"Talks", "Hackathons", "Capacitação", "Premiações", "Caf
 typeoutFallback: "Hackathons"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "/sejaconductor", text: "SEJA CONDUCTOR"}   
+ - {permalink: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}   
 
 # About Block
 aboutTitle: "Sobre o TECH Experience 2017"
@@ -292,9 +292,6 @@ aboutTalksTitle: "Talks???"
 aboutTalksSubTitle: "Vamos bater papo sobre TECH? <br/> <p>Mensalmente iremos ter um momento de compartilhamento de conhecimento para os diversos assuntos sobre TECH.</p><br/>
 <p>Sem rodeios... Teremos 03 talks de temas a serem submetidos a guild de conhecimento, a cada primeira sexta feira do mês, neles discutiremos sobre o assunto e alinharemos o conhecimento da nossa equipe.</p>
 <div class='hackathon-row col-md-12'>
-  <br/>
-  <a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Submeta seu Talks</a>
-  <a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a>
 </div> "
 
 talksRows:
@@ -312,7 +309,7 @@ talksRows:
 taskGuildMembersImage: "guilds.jpg"
 taskGuildMembersTitle: "Guild Conhecimento"
 
-talksOrganizersTitle: "Apoio"
+talksTemasTitle: "Temas"
 #partnersTitle: "Parceiros"
 #partnersC4sponsorsButton: "Seja um patrocinador"
 
