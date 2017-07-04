@@ -9,11 +9,9 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
-title: "TECH Experience with Conductor"
-email: "tex@conductor.com.br"
-description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
-
-O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
+title: "TALKS Conductor "
+email: "talks@conductor.com.br"
+description: "Bater papo sobre TECH."
 baseurl: ""
 url: "http://tex.conductor.com.br"
 permalink: "/blog/:title"
@@ -30,7 +28,7 @@ organizerLogo: "/img/seo/organizer-logo.png"
 #organizerLink: "http://lviv.gdg.org.ua/"
 
 # Head
-metaKeywords: "cartão, meios de pagamentos, hackthon, hackday, hackweek"
+metaKeywords: "Maurício Linhares"
 twitterAccount: "@devconductor"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
@@ -44,26 +42,23 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 navigationLinks:
  - {permalink: "/", text: "Início"}
  - {permalink: "/talks/", text: "Talks"}
- - {permalink: "/hackathon/", text: "Hackathons"}
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
-bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Hackathons"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}
+ - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
-heroTitle: "TEX with Conductor | <typeout>"
-eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"Talks", "Hackathons", "Capacitação", "Premiações", "Cafeína", "Pizza", "Energético", "Networking"'
-typeoutFallback: "Hackathons"
+heroTitle: "TALKS com : <typeout>"
+eventDate: "Quarta feira, 12 de Julho de 2017"
+typeoutTextValues: '"Maurício Linhares", "Daniel Cavalcante", "Marcos Carvalho"'
+typeoutFallback: "Talks"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}   
+ - {permalink: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}   
 
 # About Block
-aboutTitle: "Sobre o TECH Experience 2017"
+aboutTitle: "Sobre o TALKS"
 aboutBlock:
  - {title: "Talks", image: "microfone.png", text: "Sem blá blá blá! Nossas talks trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha construir conhecimento conosco!" }
  - {title: "Hackathons", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
@@ -94,12 +89,12 @@ latestNewsTitle: "Curiosidades"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "equipe_cdt.jpg"
 rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Palestrantes"
-rockstarSpeakersButtonText: "Conheça os palestrantes"
+rockstarSpeakersTitle: "Talkers"
+rockstarSpeakersButtonText: "Conheça os talkers"
 
 # Location Block
-locationBlockTitle: "Onde Estamos?"
-eventLocationName: "João Pessoa"
+locationBlockTitle: "Onde será?"
+eventLocationName: "Conductor - João Pessoa"
 eventLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1123877,-34.8454266,17z/data=!4m13!1m7!3m6!1s0x7acdd46df24ebfb:0x73f4f8d838087f27!2sR.+Ant%C3%B4nio+R%C3%A9gis+de+Brito,+15+-+Pedro+Gondim,+Jo%C3%A3o+Pessoa+-+PB!3b1!8m2!3d-7.1123877!4d-34.8432379!3m4!1s0x7acdd46de96eecf:0x4151e5a8e7df7079!8m2!3d-7.1122603!4d-34.8434105"
 eventStreetAddress: "R. Antônio Régis de Brito, 15 - Pedro Gondim"
 eventAddressLocality: "João Pessoa"
@@ -135,7 +130,7 @@ organizersTitle: "Parceiros"
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Seja Conductor..."
 subscribeAction: "https://pt.surveymonkey.com/r/texconductor"
-subscribeInfo: "Deafios, oportunidades e reconhecimento!!!!"
+subscribeInfo: "Desafios, oportunidades e reconhecimento!!!!"
 
 # Footer
 socialLinks:
