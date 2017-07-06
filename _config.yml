@@ -44,18 +44,18 @@ navigationLinks:
  - {permalink: "/talks/", text: "Talks"}
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 rightNavigationButtons:
- #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
+ #- {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "INSCRIÇÃO PALESTRAS"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "Inscreva-se"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
 heroTitle: "TALKS com : <typeout>"
-eventDate: "Quarta feira, 12 de Julho de 2017"
-typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
+eventDate: "Quarta feira, 12 de Julho de 2017 às 19h"
+typeoutTextValues: '"Maurício Linhares", "Felipe Germano", "Herbert Câmpelo"'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
- #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}   
+ #- {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "INSCRIÇÃO PALESTRAS"}
+ - {permalink: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "Inscreva-se"}   
 
 # About Block
 aboutTitle: "Sobre o Talks"
@@ -129,7 +129,7 @@ organizersTitle: "Parceiros"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Seja Conductor..."
-subscribeAction: "https://pt.surveymonkey.com/r/texconductor"
+subscribeAction: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform"
 subscribeInfo: "Desafios, oportunidades e reconhecimento!!!!"
 
 # Footer
