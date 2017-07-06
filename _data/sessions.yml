@@ -5,26 +5,26 @@
   service: true  
 -
   id: 002
-  title: "Como a Cloud Computing tem transformado o mundo"
+  title: "TESTES - Como implantar...."
   place: "Conductor JPA"
-  description: "Nesta seção você irá conhecer os conceitos e fundamentos de Cloud Computing e como essa tecnologia tem sido ativa na transformação e evolução tecnológica nos dias atuais. Se utilizando do Microsoft Azure como plataforma, vamos ver de forma prática o poder da nuvem."
+  description: "Descrição do Talks 01"
   subtype: talks
   speakers: [1]
 -
   id: 003
-  title: "Por que você deve estudar .NET em 2017?"
-  description: "A Microsoft vem de grandes mudanças, principalmente no mundo Open Source, e tais mudanças balançaram o mercado, colocando o .NET ainda mais no topo das linguagens e ferramentas mais populares para desenvolvimento."
-  subtype: palestra
+  title: "Talks 02"
+  description: "Descrição do Talks 02"
+  subtype: talks
   speakers: [2]
 -
   id: 004
-  title: "Pausa pro Café"
+  title: "Talks com Maurício Linhares"
+  description: "Talks com Maurício Linhares"
+  subtype: talks
+  speakers: [2]
+-
+  id: 005
+  title: "Café | Networking"
   description: "Hora de tomar o néctar dos Deuses!!!!"
   service: true
   subtype: talks
--
-  id: 005
-  title: "Por que você deve estudar .NET em 2017?"
-  description: "A Microsoft vem de grandes mudanças, principalmente no mundo Open Source, e tais mudanças balançaram o mercado, colocando o .NET ainda mais no topo das linguagens e ferramentas mais populares para desenvolvimento."
-  subtype: talks
-  speakers: [2]
