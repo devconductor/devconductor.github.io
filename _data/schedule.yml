@@ -2,7 +2,6 @@
   date: "2017-07-12"
   dateReadable: "12 de Julho de 2017"
   tracks: 
-    - {title: "Bate papo sobre TECH", color: "#90be4e"}    
   timeslots:
     #abertura
     - {
