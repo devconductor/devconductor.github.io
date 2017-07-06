@@ -51,7 +51,7 @@ rightNavigationButtons:
 heroImage: "banner-site-tex.png"
 heroTitle: "TALKS com : <typeout>"
 eventDate: "Quarta feira, 12 de Julho de 2017 às 19h"
-typeoutTextValues: '"Maurício Linhares", "Felipe Germano", "Herbert Câmpelo"'
+typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
  #- {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "INSCRIÇÃO PALESTRAS"}
