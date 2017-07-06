@@ -1,22 +1,26 @@
 -
   id: 001
   title: "Apresentação"
-  place: "Conductor JPA"
+  description: "Com o CTO da Conductor"
+  speakers: Fernando de Paula
+  company: Conductor
   service: true  
 -
   id: 002
   title: "Pier"
-  place: "Conductor JPA"
   description: "Tranformando um autorizador de cartões de crédito em API"
-  subtype: talks
+  speakers: Filipe Germano e Herbert Campêlo
+  company: Conductor
+  service: true  
 -
   id: 003
-  title: "Talk com Maurício Linhares"
-  description: "Mesa Redonda"
-  subtype: talks
+  title: "Mesa Redonda"
+  description: "Sem rodeios e direto ao ponto!"
+  speakers: Maurício Linhares
+  company: Digital Ocean
+  service: true  
 -
   id: 004
   title: "Café | Networking"
   description: "Hora de tomar o néctar dos Deuses!!!!"
   service: true
-  subtype: talks

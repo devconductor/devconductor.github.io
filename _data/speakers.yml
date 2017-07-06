@@ -1,5 +1,18 @@
 - 
   id: 1
+  name: "Fernando"
+  surname: "de Paula"
+  company: "Conductor"
+  title: "Apresentação"
+  bio: "<p>CTO da Conductor</p>"
+  thumbnailUrl: FernandoDePaula.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "CTO", title: " Chief Technology Officer", url: "https://br.linkedin.com/in/fernando-roberto-de-paula-180bb48"}
+  social: 
+    - {name: "LinkedIn ", link: "https://www.linkedin.com/in/mauriciolinhares"}
+- 
+  id: 2
   name: "Maurício"
   surname: "Linhares"
   company: "Digital Ocean"
@@ -14,7 +27,7 @@
     - {name: "Github", link: "https://github.com/mauriciolinhares"}
     - {name: "LinkedIn ", link: "https://www.linkedin.com/in/mauriciolinhares"}
 - 
-  id: 2
+  id: 3
   name: "Herbert"
   surname: "Campêlo"
   company: "Conductor"
@@ -27,8 +40,8 @@
   social:
     - {name: "site", link: "http://facebook.com.br/herbertcampelo"}
 - 
-  id: 3
-  name: "Felipe"
+  id: 4
+  name: "Filipe"
   surname: "Germano"
   company: "Conductor"
   title: "Pier"

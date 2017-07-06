@@ -61,9 +61,9 @@
                                 <div class="slot col-md-{{ slotColWidth }} col-xs-12 service-slot flexbox-item-height" data-slot-detail="{{ session.place }}">
                                     <div class="color-line"></div>
                                     <div class="slot-content">
-                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>
-                                        {% if session.description != null %}
-                                        <p class="service-description">{{ session.description }}</p>
+                                        <h5 class="slot-title" itemprop="name">{{ session.title }}</h5>   
+                                        {% if session.description != null and session.speakers != null and session.company != null%}
+                                        <p class="service-description">{{ session.description }}</p><br/><b>{{ session.speakers }}</b> - {{ session.company }}</p>
                                         {% endif %}
                                     </div>
                                 </div>

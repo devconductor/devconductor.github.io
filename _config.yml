@@ -51,7 +51,7 @@ rightNavigationButtons:
 heroImage: "banner-site-tex.png"
 heroTitle: "TALKS com : <typeout>"
 eventDate: "Quarta feira, 12 de Julho de 2017"
-typeoutTextValues: '"Maurício Linhares", "Felipe Germano", "Herbert Câmpelo"'
+typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
