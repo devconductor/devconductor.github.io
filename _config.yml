@@ -45,17 +45,17 @@ navigationLinks:
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}
+ - {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform?usp=sf_link", text: "Inscreva-se"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
 heroTitle: "TALKS com : <typeout>"
 eventDate: "Quarta feira, 12 de Julho de 2017"
-typeoutTextValues: '"Maurício Linhares", "Daniel Cavalcante", "Marcos Carvalho"'
+typeoutTextValues: '"Maurício Linhares"'
 typeoutFallback: "Talks"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "https://pt.surveymonkey.com/r/texconductor", text: "Inscreva-se"}   
+ - {permalink: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform?usp=sf_link", text: "Inscreva-se"}   
 
 # About Block
 aboutTitle: "Sobre o TALKS"
