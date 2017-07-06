@@ -9,11 +9,11 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
-title: "TALKS Conductor "
-email: "talks@conductor.com.br"
+title: "Talks Conductor "
+email: "pierlabs@conductor.com.br"
 description: "Bater papo sobre T.I."
 baseurl: ""
-url: "http://tex.conductor.com.br"
+url: "http://talks.conductor.com.br"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-78205809-2"
 googleAnalyticsSiteUrl: "http://devconductor.github.io/"
@@ -23,7 +23,7 @@ siteVerification: "7DEq0vDwrGmohdXsfkFsTw0RJwpDu6x1gnRem2Xja8U"
 organizerName: "Conductor"
 organizerAlternateName: "Conductor Tecnologia em meios de pagamentos"
 organizerDescription: "Líder em meios de pagamentos"
-organizerEmail: "tex@conductor.com.br"
+organizerEmail: "pierlabs@conductor.com.br"
 organizerLogo: "/img/seo/organizer-logo.png"
 #organizerLink: "http://lviv.gdg.org.ua/"
 
@@ -49,7 +49,7 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "banner-site-tex.png"
-heroTitle: "TALKS com : <typeout>"
+heroTitle: "Talks com : <typeout>"
 eventDate: "Quarta feira, 12 de Julho de 2017 às 19h"
 typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
 typeoutFallback: "Maurício Linhares"
@@ -101,9 +101,9 @@ eventAddressLocality: "João Pessoa"
 eventAddressLocalityRegion: "João Pessoa"
 eventPostalCode: "58031-106"
 eventAddressCountry: "Paraíba"
-eventStartTime: "2017-02-08T14:00"
-eventDoorTime: "23:00"
-eventEndTime: "2017-02-08T21:30"
+eventStartTime: "2017-07-12T19:00"
+eventDoorTime: "18:30"
+eventEndTime: "2017-07-12T22:00"
 eventPlaceCoordinates: "-7.1123877,-34.8454266"
 mapCenterCoordinates: "-7.1123877,-34.8454266"
 mapMobileCenterCoordinates: "-7.1123877,-34.8454266"
@@ -148,7 +148,7 @@ footerBlocks:
  -
   title: "Contato"
   links:
-   - {link: "mailto:tex@conductor.com.br", text: "tex@conductor.com.br"}
+   - {link: "mailto:pierlabs@conductor.com.br", text: "pierlabs@conductor.com.br"}
  -
   #title: "FAQ"
   #links:
