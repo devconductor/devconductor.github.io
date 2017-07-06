@@ -2,9 +2,9 @@
   id: 1
   name: "Maurício"
   surname: "Linhares"
-  company: "Senior Software Engineer at Digital Ocean"
+  company: "Digital Ocean"
   title: "Mesa Redonda"
-  bio: "Software architect experienced at building and defining solutions for various industries, from telecom billing systems (yes, with ISO-8583 variations), high performance network services and web applications in general. I'm a passionate practitioner of the agile method (without labels) and a test believer."
+  bio: "<p>Engenheiro de Software Sênior na Digital Ocean</p>"
   thumbnailUrl: MauricioLinhares.jpg
   rockstar: true
   ribbon:
@@ -15,29 +15,27 @@
     - {name: "LinkedIn ", link: "https://www.linkedin.com/in/mauriciolinhares"}
 - 
   id: 2
+  name: "Herbert"
+  surname: "Campêlo"
+  company: "Conductor"
+  title: "Pier"
+  bio: '<p>DevOps agilizando os processos de integração e entrega de APIs</p>'
+  thumbnailUrl: HerbertCampelo.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "DevOps",  title: " Desenvolvimento e Operações"}
+  social:
+    - {name: "site", link: "http://facebook.com.br/herbertcampelo"}
+- 
+  id: 3
   name: "Felipe"
   surname: "Germano"
   company: "Conductor"
   title: "Pier"
-  bio: '<p>Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.
-Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo.</p><p>Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.</p>'
+  bio: '<p>Desenvolvedor Pleno na Conductor</p>'
   thumbnailUrl: FelipeGermano.jpg
   rockstar: true
   ribbon:
-    - {abbr: "MVP", title: " Most Valuable Professional", url: "https://mvp.microsoft.com"}
-  social: 
-    - {name: "site", link: "http://andrebaltieri.net/"}
-- 
-  id: 2
-  name: "Herbert"
-  surname: "Câmpelo"
-  company: "Conductor"
-  title: "Microsoft Azure e a relevância da Cloud Computing nos dias atuais"
-  bio: '<p>Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.
-Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo.</p><p>Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.</p>'
-  thumbnailUrl: HerbertCampelo.jpg
-  rockstar: true
-  ribbon:
-    - {abbr: "MVP", title: " Most Valuable Professional", url: "https://mvp.microsoft.com"}
-  social: 
-    - {name: "site", link: "http://andrebaltieri.net/"}
+    - {abbr: "DevPleno",  title: " Desenvolvimento e Operações"}
+  social:
+    - {name: "site", link: "http://facebook.com.br/herbertcampelo"}
