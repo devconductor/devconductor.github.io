@@ -1,27 +1,41 @@
 - 
   id: 1
-  name: "Vitor"
-  surname: "Meriat"
-  company: "Microsoft MVP"
-  title: "Como a Cloud Computing tem transformado o mundo"
-  bio: "Desenvolvedor, músico e apaixonado por soluções. Programa há 9 anos quando viu pela primeira vez uma linha código na tela do computador. Especialista em Cloud Computing e Integrações, Vitor é um professional que atua tanto no desenvolvimento de software para plataformas de alto nível quanto em sistemas embarcados. MCP, MCSD, MVP e CLOUDF."
-  thumbnailUrl: VitorMeriat.jpg
+  name: "Maurício"
+  surname: "Linhares"
+  company: "Senior Software Engineer at Digital Ocean"
+  title: "Mesa Redonda"
+  bio: "Software architect experienced at building and defining solutions for various industries, from telecom billing systems (yes, with ISO-8583 variations), high performance network services and web applications in general. I'm a passionate practitioner of the agile method (without labels) and a test believer."
+  thumbnailUrl: MauricioLinhares.jpg
+  rockstar: true
+  ribbon:
+    - {abbr: "SR", title: " Senior Software Engineer", url: "https://www.linkedin.com/in/mauriciolinhares"}
+  social: 
+    - {name: "Twitter", link: "https://twitter.com/mauriciolinhares"}
+    - {name: "Github", link: "https://github.com/mauriciolinhares"}
+    - {name: "LinkedIn ", link: "https://www.linkedin.com/in/mauriciolinhares"}
+- 
+  id: 2
+  name: "Felipe"
+  surname: "Germano"
+  company: "Conductor"
+  title: "Pier"
+  bio: '<p>Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.
+Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo.</p><p>Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.</p>'
+  thumbnailUrl: FelipeGermano.jpg
   rockstar: true
   ribbon:
     - {abbr: "MVP", title: " Most Valuable Professional", url: "https://mvp.microsoft.com"}
   social: 
-    - {name: "Twitter", link: "https://twitter.com/vitormeriat"}
-    - {name: "Github", link: "https://github.com/vitormeriat"}
-    - {name: "LinkedIn ", link: "https://www.linkedin.com/in/vitormeriat"}
+    - {name: "site", link: "http://andrebaltieri.net/"}
 - 
   id: 2
-  name: "André"
-  surname: "Baltieri"
-  company: "Microsoft MVP"
+  name: "Herbert"
+  surname: "Câmpelo"
+  company: "Conductor"
   title: "Microsoft Azure e a relevância da Cloud Computing nos dias atuais"
   bio: '<p>Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.
 Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo.</p><p>Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.</p>'
-  thumbnailUrl: AndreBaltieri.jpg
+  thumbnailUrl: HerbertCampelo.jpg
   rockstar: true
   ribbon:
     - {abbr: "MVP", title: " Most Valuable Professional", url: "https://mvp.microsoft.com"}

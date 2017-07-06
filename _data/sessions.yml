@@ -5,25 +5,17 @@
   service: true  
 -
   id: 002
-  title: "TESTES - Como implantar...."
+  title: "Pier"
   place: "Conductor JPA"
-  description: "Descrição do Talks 01"
+  description: "Tranformando um autorizador de cartões de crédito em API"
   subtype: talks
-  speakers: [1]
 -
   id: 003
-  title: "Talks 02"
-  description: "Descrição do Talks 02"
+  title: "Talk com Maurício Linhares"
+  description: "Mesa Redonda"
   subtype: talks
-  speakers: [2]
 -
   id: 004
-  title: "Talks com Maurício Linhares"
-  description: "Talks com Maurício Linhares"
-  subtype: talks
-  speakers: [2]
--
-  id: 005
   title: "Café | Networking"
   description: "Hora de tomar o néctar dos Deuses!!!!"
   service: true
