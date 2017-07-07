@@ -134,11 +134,10 @@ subscribeInfo: "Desafios, oportunidades e reconhecimento!!!!"
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/u/0/107714112382382283079", icon: "google-plus"}
+ - {link: "https://www.instagram.com/conductortecnologia/", icon: "fa fa-instagram"}
  - {link: "https://twitter.com/intent/user?screen_name=conductor", icon: "twitter"}
  - {link: "https://pt-br.facebook.com/ConductorTecnologia/", icon: "facebook"}
  - {link: "https://br.linkedin.com/company/conductor", icon: "linkedin"}
- - {link: "https://www.instagram.com/conductortecnologia/", icon: "instagram"}
 footerBlocks:
  -
   title: "Links"
