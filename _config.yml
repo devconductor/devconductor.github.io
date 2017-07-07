@@ -50,7 +50,7 @@ rightNavigationButtons:
 # Hero Block
 heroImage: "banner-site-tex.png"
 heroTitle: "Talks com: <typeout>"
-eventDate: "Quarta feira, 12 de Julho de 2017 às 19h"
+eventDate: "Quarta feira, 12 de Julho de 2017 às 19h.<p>Vagas Limitadas!</p>"
 typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
