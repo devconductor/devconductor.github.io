@@ -62,7 +62,7 @@ aboutTitle: "Sobre o Talks"
 aboutBlock:
  - {title: "Talks", image: "microfone.png", text: "Sem blá blá blá! Nossas talks trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha construir conhecimento conosco!" }
 # - {title: "Hackathons", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
- - {title: "Cerva", image: "cerveja.jpg", text: "Nada melhor que conversar sobre tecnologia tomando um boa gelada!" }
+ - {title: "Cerva", image: "cerveja.jpg", text: "Nada melhor que conversar sobre tecnologia tomando uma boa gelada!" }
  - {title: "Vagas", image: "vagas.jpg", text: "Sorria! Você está sendo filmado e recrutado. Esquece a entrevista formal e bate um papo conosco. Uma oportunidade imperdível!" }
 
 # Statistic Block
