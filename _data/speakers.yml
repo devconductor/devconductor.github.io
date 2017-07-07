@@ -17,8 +17,8 @@
   surname: "Linhares"
   company: "Digital Ocean"
   title: "Mesa Redonda"
-  bio: "<p>Engenheiro de Software Sênior na Digital Ocean</p>"
-  thumbnailUrl: MauricioLinhares.jpg
+  bio: "<p>Software architect experienced at building and defining solutions for various industries, from telecom billing systems (yes, with ISO-8583 variations), high performance network services and web applications in general. I'm a passionate practitioner of the agile method (without labels) and a test believer.</p><p>My main focus currently is backend development, both web applications, background work solutions, messaging systems and functional programming. I believe we can build better and easier to maintain systems, that are reliable and that can be run the a parallel hardware universe we are in nowadays by focusing in functional programming principles.</p><p>When not working at my day job you can find me teaching, giving presentations about Java, Scala, Ruby, Objective-C, Agile Methods or software development in general (check my presentations on Slideshare - http://www.slideshare.net/mauricio.linhares ), writing open source code like this Scala-based PostgreSQL and MySQL async driver ( https://github.com/mauricio/postgresql-async ), answering questions on StackOverflow ( http://stackoverflow.com/users/293686/mauricio-linhares ) or blogging.</p><p>Specialties: web development, usability analysis, object oriented software construction, concurrent software development, teaching, software architeture, domain driven design, agile methods, test-behaviour driven development, performance analysis and optimization, server management and monitoring, Java, Ruby, Ruby on Rails, Erlang, objective-c, iphone, ipad, ios, android, scala</p>"
+  thumbnailUrl: "MauricioLinhares.jpg"
   rockstar: true
   ribbon:
     - {abbr: "SR", title: " Senior Software Engineer", url: "https://www.linkedin.com/in/mauriciolinhares"}
@@ -31,12 +31,12 @@
   name: "Herbert"
   surname: "Campêlo"
   company: "Conductor"
-  title: "Pier"
-  bio: '<p>DevOps agilizando os processos de integração e entrega de APIs</p>'
+  title: "Meios de pagamentos escaláveis: A evolução da API com alta disponibilidade na nuvem."
+  bio: '<p>Formado em Redes de Computadores, trabalha na área de infraestrutura para Meios de Pagamento desde o início da carreira.</p> <p>Quando não está surfando ou fazendo imitações, busca incessantemente aprimorar-se como DevOps a fim de prover novas tecnologias que facilitem a vida do time de desenvolvimento, além de garantir a máxima eficiência das soluções desenvolvidas.</p>'
   thumbnailUrl: HerbertCampelo.jpg
   rockstar: true
   ribbon:
-    - {abbr: "DevOps",  title: " Desenvolvimento e Operações"}
+    - {abbr: "DevOps",  title: "DevOps", url: "https://www.linkedin.com/in/herbert-campelo-b25aa546/"}
   social:
     - {name: "site", link: "http://facebook.com.br/herbertcampelo"}
 - 
@@ -44,11 +44,11 @@
   name: "Filipe"
   surname: "Germano"
   company: "Conductor"
-  title: "Pier"
-  bio: '<p>Desenvolvedor Pleno na Conductor</p>'
+  title: "Meios de pagamentos escaláveis: A evolução da API com alta disponibilidade na nuvem."
+  bio: '<p>Trabalhando sempre com soluções Full Stack dentre as mais diversas áreas de negócio, seja no fogão ou de frente ao computador, vem concebendo e implantando novas soluções em arquitetura para o mercado de Meios de Pagamento.</p> <p>Exercendo hoje o papel de referência técnica do time de desenvolvimento de APIs Restfull da Conductor, preza sempre pelas melhores práticas de programação, além de estar por dentro das tendências e inovações para o setor de TI.</p>'
   thumbnailUrl: FelipeGermano.jpg
   rockstar: true
   ribbon:
-    - {abbr: "DevPleno",  title: " Desenvolvimento e Operações"}
+    - {abbr: "DevPleno",  title: " Arquitetura e desenvolvimento", url: "https://www.linkedin.com/in/filipegermano"}
   social:
     - {name: "site", link: "http://facebook.com.br/herbertcampelo"}
