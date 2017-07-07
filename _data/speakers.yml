@@ -17,7 +17,7 @@
   surname: "Linhares"
   company: "Digital Ocean"
   title: "Mesa Redonda"
-  bio: "<p>Arquiteto de software experiente na construção e definição de soluções para várias indústrias, desde sistemas de cobrança de telecomunicações (sim, com variações ISO-8583), serviços de rede de alto desempenho e aplicações web em geral. Eu sou um praticante apaixonado do método ágil (sem rótulos) e um crente de teste.</p><p>Atualmente, meu foco principal é o desenvolvimento do backend, tanto aplicações web, soluções de trabalho de fundo, sistemas de mensagens e programação funcional. Eu acredito que podemos construir sistemas de manutenção melhores e mais fáceis, que são confiáveis ​​e que podem ser executados um universo de hardware paralelo no nosso tempo, concentrando-nos em princípios de programação funcional.</p>"
+  bio: "<p>Arquiteto de software experiente na construção e definição de soluções para várias indústrias, desde sistemas de cobrança de telecomunicações (sim, com variações ISO-8583), serviços de rede de alto desempenho e aplicações web em geral. Eu sou um praticante apaixonado do método ágil (sem rótulos) e um crente de teste.</p><p>Atualmente, meu foco principal é o desenvolvimento de backend, aplicações web, soluções para processamento em batch, sistemas de mensagens e programação funcional. Eu acredito que podemos construir sistemas melhores, fáceis, confiáveis e que podem ser executados em um universo de hardware paralelo, concentrando-nos em princípios de programação funcional.</p>"
   thumbnailUrl: "MauricioLinhares.jpg"
   rockstar: true
   ribbon:
