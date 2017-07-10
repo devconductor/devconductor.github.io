@@ -52,3 +52,16 @@
     - {abbr: "Dev",  title: " Arquitetura e desenvolvimento", url: "https://www.linkedin.com/in/filipegermano"}
   social:
     - {name: "site", link: "https://github.com/filipegermano"}
+- 
+  id: 5
+  name: "Diego"
+  surname: "Balduino"
+  company: "Conductor"
+  title: "Mailgun"
+  bio: "----"
+  thumbnailUrl: "diego.jpg"
+  rockstar: true
+  ribbon:
+    - {abbr: "Dev", title: "Desenvolvimento", url: "https://www.linkedin.com/in/diegobalduino/"}
+  social: 
+    - {name: "LinkedIn ", link: "https://www.linkedin.com/in/diegobalduino/"}    

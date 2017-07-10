@@ -1,26 +1,33 @@
 -
   id: 001
-  title: "Apresentação"
+  title: "Abertura"
   description: "Com o CTO da Conductor"
   speakers: Fernando de Paula
   company: Conductor
   service: true  
 -
   id: 002
+  title: "Mailgun"
+  description: "-"
+  speakers: Diego Balduino
+  company: Conductor
+  service: true    
+-
+  id: 003
   title: "Meios de Pagamentos Escaláveis"
   description: "A evolução da API com alta disponibilidade na Nuvem. "
   speakers: Filipe Germano e Herbert Campêlo
   company: Conductor
   service: true  
 -
-  id: 003
+  id: 004
   title: "Bate-papo sobre novas tendências"
   description: "Sem rodeios e direto ao ponto"
   speakers: Maurício Linhares
   company: Digital Ocean
   service: true  
 -
-  id: 004
+  id: 005
   title: "Beer | Networking"
   description: "Hora de tomar o néctar dos Deuses!!"
   company: RH

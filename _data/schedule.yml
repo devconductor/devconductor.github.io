@@ -10,21 +10,27 @@
         endTime: "19:30",
         sessionIds: [001]
     }
-    #talk1
+    #talk1 diego
     - {
         startTime: "19:30",
-        endTime: "20:30",
+        endTime: "20:00",
         sessionIds: [002]
+    }    
+    #talk1
+    - {
+        startTime: "20:00",
+        endTime: "21:00",
+        sessionIds: [003]
     }   
     #talk2
     - {
-        startTime: "20:30",
+        startTime: "21:00",
         endTime: "21:30",
-        sessionIds: [003]
+        sessionIds: [004]
     }  
     #coffee
     - {
     	startTime: "21:30",
     	endTime: "22:00",
-    	sessionIds: [004]
+    	sessionIds: [005]
     }
