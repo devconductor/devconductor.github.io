@@ -45,17 +45,17 @@ navigationLinks:
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 rightNavigationButtons:
  #- {link: "www.conductor.com.br", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "www.conductor.com.br", text: "INSCRIÇÕES ENCERRADAS"}
+ - {text: "INSCRIÇÕES ENCERRADAS"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
 heroTitle: "Talks com: <typeout>"
 eventDate: "Quarta feira, 12 de Julho de 2017 às 19h.<p>Vagas Limitadas!</p>"
-typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo", "Diego Balduino'
+typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo", "Diego Baulduino'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
- #- {link: "www.conductor.com.br", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "www.conductor.com.br", text: "INSCRIÇÕES ENCERRADAS"}   
+ #- {link: "/", text: "INSCRIÇÃO PALESTRAS"}
+ - {text: "INSCRIÇÕES ENCERRADAS"}   
 
 # About Block
 aboutTitle: "Sobre o Talks"
