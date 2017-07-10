@@ -44,8 +44,8 @@ navigationLinks:
  - {permalink: "/talks/", text: "Talks"}
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 rightNavigationButtons:
- #- {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "INSCRIÇÃO PALESTRAS"}
- - {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "Inscreva-se"}
+ #- {link: "www.conductor.com.br", text: "INSCRIÇÃO PALESTRAS"}
+ - {link: "www.conductor.com.br", text: "INSCRIÇÕES ENCERRADAS"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
@@ -54,8 +54,8 @@ eventDate: "Quarta feira, 12 de Julho de 2017 às 19h.<p>Vagas Limitadas!</p>"
 typeoutTextValues: '"Maurício Linhares", "Filipe Germano", "Herbert Campêlo"'
 typeoutFallback: "Maurício Linhares"
 heroButtons:
- #- {link: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "INSCRIÇÃO PALESTRAS"}
- - {permalink: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform", text: "Inscreva-se"}   
+ #- {link: "www.conductor.com.br", text: "INSCRIÇÃO PALESTRAS"}
+ - {permalink: "www.conductor.com.br", text: "INSCRIÇÕES ENCERRADAS"}   
 
 # About Block
 aboutTitle: "Sobre o Talks"
@@ -129,7 +129,7 @@ organizersTitle: "Parceiros"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Seja Conductor..."
-subscribeAction: "https://docs.google.com/forms/d/e/1FAIpQLScFSzfjwAwcieIAdIoY4zHSvz5d0Xx191bBttWkS4eZQg5WlQ/viewform"
+subscribeAction: "www.conductor.com.br"
 subscribeInfo: "Desafios, oportunidades e reconhecimento!!!!"
 
 # Footer
