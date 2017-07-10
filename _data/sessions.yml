@@ -8,7 +8,7 @@
 -
   id: 002
   title: "Mailgun"
-  description: "-"
+  description: "Inovação no disparo de faturas por e-mail na plataforma Conductor."
   speakers: Diego Balduino
   company: Conductor
   service: true    
