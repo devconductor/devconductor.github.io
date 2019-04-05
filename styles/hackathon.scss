@@ -1,0 +1,63 @@
+.bt-central {
+    button {
+        margin: 0 10px;
+    }
+}
+
+.event-details {
+    color: white;
+    text-align: left;
+    padding: 20px;
+
+    h2 {
+        margin: 20px 0;
+    }
+
+    p {
+        margin: 10px 0;
+    }
+
+    li {
+        margin: 6px 0;
+    }
+}
+
+.awards {
+    
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+
+    .award {
+        display: inline-block;
+        margin: 20px 100px;
+    }
+}
+
+.judges {
+    margin-top: 40px;
+    color: white;
+
+    .judge {
+        display: inline-block;
+        margin: 20px 50px;
+
+        img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+    }
+}
+
+@media(max-width: 950px) {
+    .awards {
+        .award {
+            margin: 20px 50px;
+        }
+    }
+}

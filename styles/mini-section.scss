@@ -1,0 +1,36 @@
+.mini-section {
+    width: 100%;
+    z-index: 2;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .mini-section-content {
+        z-index: 3;
+        min-height: 50vh;
+
+        &.align-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .mini-section-body {
+            margin: 0 auto;
+            text-align: center;
+            padding: 10px 0;
+            max-width: 90%;
+
+            .title {
+                color: white;
+                font-size: xx-large;
+                font-weight: 100;
+            }
+
+            .title-space {
+                margin-top: 30px;
+            }
+        }
+
+    }
+}

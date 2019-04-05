@@ -1,0 +1,50 @@
+.section {
+    position: relative;    
+    min-height: 100vh;
+    width: 100%;
+    z-index: 2;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .section-content {
+        z-index: 3;
+        
+        &.section-first {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+        }
+
+        &.align-center {
+            display: flex;
+            align-items: center;
+        }
+
+        .section-body {
+            margin: 0 auto;
+            text-align: center;
+            padding: 10px;
+            max-width: 95%;
+            
+            .title {
+                color: black;
+                font-size: xx-large;
+                font-weight: 100;
+
+                .logo {
+                    width: 700px;
+                    max-width: 90%;
+                }
+            }
+
+            .title-space {
+                margin-top: 30px;
+            }
+        }
+
+    }
+}

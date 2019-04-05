@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import './backdrop.scss';
+@import './calendar.scss';
+@import './footer.scss';
+@import './hackathon.scss';
+@import './header.scss';
+@import './mini-section.scss';
+@import './section.scss';
+@import '../node_modules/animate.css/animate.min.css';
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+    &::-webkit-scrollbar {
+        background: white;
+        width: 6px;
+        height: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #1d1d1d;
+    }
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 69px;
+    font-weight: 100;
+    color: white;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    background: #513b90;
+    color: white;
+    border-radius: 4px;
+
+    &:hover {
+        cursor: pointer;
+        background: darken($color: #513b90, $amount: 10%)
+    }
+
+    &.large {
+        padding: 12px;
+        font-size: 1.2em;
+    }
+
+    &:focus {
+        outline: none;
+    }   
+}
+
+.about-geek {
+    color: white;
+    label {
+        font-size: x-large;
+        font-weight: 400;
+    }
+}
+
+.info-metas {
+
+    margin: 0 40px;
+
+    .number, .hifen {
+        font-size: 5em;
+        color: #5abeee;
+        font-weight: bold;
+        text-shadow: 3px 3px #050505;
+    }
+
+    .hifen {
+        font-weight: 100
+    }
+
+    .unit, .description {
+        font-size: large;
+        color: white;
+    }
+}
+
+.follow-twitter {
+    margin-top: 60px;
+    font-size: 5em;
+
+    a {
+        color: #5abeee;
+        text-decoration: none;
+
+        &:hover {
+            color: darken($color: #5abeee, $amount: 10%)
+        }
+    }
+}
+
+.text-styled {
+    .word {
+        color: #5abeee !important;
+    }
+}
+
+.animated-text {
+    display: inline-block;
+    .word {
+        display: inline-block;
+    }
+}
+
+@media(max-width: 650px) {
+    .follow-twitter {
+        font-size: 2.5em;
+    }
+}

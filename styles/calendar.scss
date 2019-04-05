@@ -1,0 +1,25 @@
+.time-down {
+    margin: 20px 0;
+    text-align: center;
+
+    .time, span {
+        display: inline-block;
+        font-size: xx-large;
+        margin: 0 15px;
+        color: white;
+
+        label {
+            font-size: small;
+            display: table-cell;
+        }
+    }
+}
+
+@media(max-width: 500px) {
+    
+    .time-down {
+        .time, span {
+            margin: 0 5px;
+        }
+    }
+}
