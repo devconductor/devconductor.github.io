@@ -1,5 +1,5 @@
 # Plugins
-gems:
+plugins:
 - jekyll-sitemap
 safe: false
 
@@ -9,11 +9,11 @@ permalink: pretty
 exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 # Site Settings
-title: "TECH Experience with Conductor"
+title: "Geek for a week"
 email: "tex@conductor.com.br"
 description: "conhecimentos e ingressar no mercado de trabalho como profissionais criativos e preparados.
 
-O Tech Experience é um evento único, composto por um ciclo de palestras com profissionais da área de TI,  que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
+O Geek for a week é um evento único que tem a finalidade de levar conhecimento técnico aos apaixonados por inovação"
 baseurl: ""
 url: "http://tex.conductor.com.br"
 permalink: "/blog/:title"
@@ -43,31 +43,28 @@ socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Início"}
- - {permalink: "/talks/", text: "Talks"}
- - {permalink: "/hackathon/", text: "Hackathons"}
+ - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "https://jobs.kenoby.com/conductor", text: "Seja Conductor"}
 bottomNavigationLinks:
- - {link: "https://bit.ly/dfua-c4p", text: "Hackathons"}
+ - {link: "https://bit.ly/dfua-c4p", text: "Hackathon"}
 rightNavigationButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
  - {link: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}
 
 # Hero Block
 heroImage: "banner-site-tex.png"
-heroTitle: "TEX with Conductor | <typeout>"
-eventDate: "08, 18 e 19 de Fevereiro de 2017"
-typeoutTextValues: '"Talks", "Hackathons", "Capacitação", "Premiações", "Cafeína", "Pizza", "Energético", "Networking"'
-typeoutFallback: "Hackathons"
+heroTitle: "Geek for a week | <typeout>"
+eventDate: "22 a 28 de abril de 2019"
+typeoutTextValues: '"Hackathon", "Capacitação", "Premiações", "Cafeína", "Pizza", "Energético", "Networking"'
+typeoutFallback: "Hackathon"
 heroButtons:
  #- {link: "https://pt.surveymonkey.com/r/texconductor", text: "INSCRIÇÃO PALESTRAS"}
  - {permalink: "https://jobs.kenoby.com/conductor", text: "SEJA CONDUCTOR"}   
 
 # About Block
-aboutTitle: "Sobre o TECH Experience 2017"
+aboutTitle: "Sobre o Geek for a week"
 aboutBlock:
- - {title: "Talks", image: "microfone.png", text: "Sem blá blá blá! Nossas talks trarão informações úteis que te ajudarão a enxergar novos horizontes. Venha construir conhecimento conosco!" }
- - {title: "Hackathons", image: "workshop.jpg", text: "Um fim de semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
- - {title: "Treinamentos", image: "book.jpg", text: "Capacitar é multiplicar! Assuntos diversos e com uma abordagem prática, sem mimimi e direto ao ponto!" }
+ - {title: "Hackathon", image: "workshop.jpg", text: "Uma semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!" }
  - {title: "Vagas", image: "vagas.jpg", text: "Sorria! Você está sendo filmado e recrutado. Esquece a entrevista formal e bate um papo conosco. Uma oportunidade imperdível!" }
 
 # Statistic Block
@@ -81,10 +78,11 @@ statisticBlock:
 # Numbers Block
 numberBlockImage: "nossos-numeros.jpg"
 numberBlock:
- - {count: "45", specialCharacter: "+", info: "milhões", detail: "de cartões cadastrados"}
- - {count: "190", specialCharacter: "+", info: "milhões", detail: "de transações por ano"}
- - {count: "18", specialCharacter: "+", info: "bilhões de reais", detail: "transacionados por ano"}
- - {count: "350", specialCharacter: "+", info: "funcionários", detail: "em dois escritórios"}
+ - {count: "75", specialCharacter: "+", info: "milhões", detail: "de cartões cadastrados"}
+ - {count: "18", specialCharacter: "+", info: "milhões", detail: "de usuários ativos"}
+ - {count: "800", specialCharacter: "+", info: "milhões", detail: "de transações por ano"}
+ - {count: "60", specialCharacter: "+", info: "bilhões de reais", detail: "transacionados por ano"}
+ - {count: "600", specialCharacter: "+", info: "funcionários", detail: "em três escritórios"}
 
 #Funcionários: 350+ 
 
@@ -100,18 +98,18 @@ rockstarSpeakersButtonText: "Conheça os palestrantes"
 # Location Block
 locationBlockTitle: "Onde Estamos?"
 eventLocationName: "João Pessoa"
-eventLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1123877,-34.8454266,17z/data=!4m13!1m7!3m6!1s0x7acdd46df24ebfb:0x73f4f8d838087f27!2sR.+Ant%C3%B4nio+R%C3%A9gis+de+Brito,+15+-+Pedro+Gondim,+Jo%C3%A3o+Pessoa+-+PB!3b1!8m2!3d-7.1123877!4d-34.8432379!3m4!1s0x7acdd46de96eecf:0x4151e5a8e7df7079!8m2!3d-7.1122603!4d-34.8434105"
+eventLocationLink: "https://www.google.com/maps/place/Conductor+Tecnologia/@-7.1122603,-34.8434105,15z/data=!4m2!3m1!1s0x0:0x4151e5a8e7df7079?sa=X&ved=2ahUKEwjgm_aEs7ThAhWjTN8KHRfTCjcQ_BIwDXoECAgQCA"
 eventStreetAddress: "R. Antônio Régis de Brito, 15 - Pedro Gondim"
 eventAddressLocality: "João Pessoa"
 eventAddressLocalityRegion: "João Pessoa"
 eventPostalCode: "58031-106"
 eventAddressCountry: "Paraíba"
-eventStartTime: "2017-02-08T14:00"
+eventStartTime: "2019-04-22T14:00"
 eventDoorTime: "23:00"
-eventEndTime: "2017-02-08T21:30"
-eventPlaceCoordinates: "-7.1123877,-34.8454266"
-mapCenterCoordinates: "-7.1123877,-34.8454266"
-mapMobileCenterCoordinates: "-7.1123877,-34.8454266"
+eventEndTime: "2019-04-28T21:30"
+eventPlaceCoordinates: "-7.1122603,-34.8434105"
+mapCenterCoordinates: "-7.1122603,-34.8434105"
+mapMobileCenterCoordinates: "-7.1122603,-34.8434105"
 
 # Venue Block
 venueBlockTitle: "Nossa Casa"
@@ -125,7 +123,7 @@ venueFeatures: ["Filial João Pessoa", "Localizada no bairro Pedro Gondim", "Est
 # Tweets Feed Block
 tweetsFeedImage: "sala_desenv.jpg"
 tweetsFeedTitle: "Siga a hashtag"
-twitterHashTag: "conductorTex"
+twitterHashTag: "GeekForAWeek"
 #twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
 
 # Partners Block
@@ -217,12 +215,12 @@ directionDetailsWideCards:
      - {link: "https://plus.google.com/b/102444623953913144164", text: "Hotel Adagio"}
 
 # Hackathon
-hackathonTitle: "Hackathons"
+hackathonTitle: "Hackathon"
 enableHackathon: true
 
 # Hackathon About Block
 aboutHackathonTitle: "Inscrições Abertas!"
-aboutHackathonSubTitle: "Vagas limitadas! <div class='hackathon-row col-md-12'><br/><a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Regulamento</a><a href='https://www.sympla.com.br/1-hackathon-conductor---tech-experience-2017-by-conductor__115424' class='btn btn-primary' target='_blank'>Inscreva-se</a></div> "
+aboutHackathonSubTitle: "Vagas limitadas! <div class='hackathon-row col-md-12'><br/><a href='/assets/hackathon_tex.pdf' class='btn btn-primary' style='margin-right: 10px' target='_blank'>Regulamento</a><a href='https://docs.google.com/forms/d/1RXy_5mW0XQSVv0jxJoEynLUlf7TPUw_FvY3lE-ycLZs/prefill' class='btn btn-primary' target='_blank'>Inscreva-se</a></div> "
 
 hackathonRows:
  - {title: "Como saber se você está “nos trinques” para o Hackaton?", details: "
@@ -267,49 +265,19 @@ prizes:
 # Hackathon Location Block
 hackathonLocationBlockTitle: "Localização"
 hackathonLocationName: "Conductor Filial João Pessoa"
-hackathonLocationLink: "https://www.google.com.br/maps/place/Conductor+Tecnologia/@-7.1124143,-34.8433881,15z/data=!4m5!3m4!1s0x0:0x4151e5a8e7df7079!8m2!3d-7.1124143!4d-34.8433881"
+hackathonLocationLink: "https://www.google.com/maps/place/Conductor+Tecnologia/@-7.1122603,-34.8434105,15z/data=!4m2!3m1!1s0x0:0x4151e5a8e7df7079?sa=X&ved=2ahUKEwjgm_aEs7ThAhWjTN8KHRfTCjcQ_BIwDXoECAgQCA"
 hackathonStreetAddress: "R. Antônio Régis de Brito, 15"
 hackathonAddressLocality: "João Pessoa"
 hackathonAddressLocalityRegion: "João Pessoa"
 hackathonPostalCode: "58031-106"
 hackathonAddressCountry: "Paraíba"
-hackathonTimeTitle: "Horário do evento: 08:00 do dia 18/02 até às 12:00 do dia 19/02"
+hackathonTimeTitle: "Horário do evento: 08:00 do dia 22/04/2019 até às 12:00 do dia 28/04/2019"
 viewOnMap: "Ver no Google Maps"
-hackathonPlaceCoordinates: "-7.11245422,-34.84339078"
-hackathonMapCenterCoordinates: "-7.11245422,-34.84339078"
-hackathonMapMobileCenterCoordinates: "-7.11245422,-34.84339078"
+hackathonPlaceCoordinates: "-7.1122603,-34.8434105"
+hackathonMapCenterCoordinates: "-7.1122603,-34.8434105"
+hackathonMapMobileCenterCoordinates: "-7.1122603,-34.8434105"
 
 
-###########################################################
-###################### Talks ##############################
-###########################################################
-
-talksTitle: "Talks"
-enableTalks: true
-
-# Talks About Block
-aboutTalksTitle: "Talks???"
-aboutTalksSubTitle: "Vamos bater papo sobre TECH? <br/> <p>Mensalmente iremos ter um momento de compartilhamento de conhecimento para os diversos assuntos sobre TECH.</p><br/>
-<p>Sem rodeios... Teremos 03 talks de temas a serem submetidos a guild de conhecimento, a cada primeira sexta feira do mês, neles discutiremos sobre o assunto e alinharemos o conhecimento da nossa equipe.</p>
-<div class='hackathon-row col-md-12'>
-</div> "
-
-talksRows:
- - {title: "Dicas para submissão de Talks!", 
-    details: "<p>ANALISE A GRADE DE PALESTRAS DAS EDIÇÕES ANTERIORES E INVISTA TEMPO NA ESCOLHA DO TEMA E TÍTULO </p>
-              <p>LEVE A SÉRIO: peça aos amigos para fazerem uma leitura crítica do texto e claro, uma boa revisão ortográfica e escreva uma descrição legal da palestra, não apenas uma linha.</p> 
-              <p>MINI BIOGRAFIA COERENTE COM O TEMA DA PALESTRA: Procure enviar uma mini biografia que seja coerente com a palestra submetida. Pegar aquela minibio que você usa há 5 anos e está desatualizada reduz as suas chances de vitória! </p>
-              <p>SEJA CRIATIVO E NÃO BLEFE. Submeta palestras sobre os assuntos que você tem conhecimento e experiência. Assim, teremos um evento melhor para todos. </p>
-              <p>O passo mais importante para ser aprovado como palestrante é sem dúvida nenhuma submeter pelo menos uma palestra. Então, independente de qualquer coisa, participe, arrisque, divulgue. </p>
-
-              <p>Aguardamos você! Não deixe de participar! </p>"
-  }
-
-# Talks Guild Members Block
-taskGuildMembersImage: "guilds.jpg"
-taskGuildMembersTitle: "Guild Conhecimento"
-
-talksTemasTitle: "Temas"
 #partnersTitle: "Parceiros"
 #partnersC4sponsorsButton: "Seja um patrocinador"
 
