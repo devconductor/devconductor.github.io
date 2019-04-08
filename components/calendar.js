@@ -24,11 +24,7 @@ class Calendar extends React.Component {
 
         const { days, hours, minutes, seconds} = this.state.dateDown
 
-        // today igual a  dateCompare return 0
-        // today maior que dateCompare return -1
-        // today menor que dateCompare return 1
-
-        if (timeUtils.compareDateWithToday(this.props.dateStartEvent)) {
+        if (timeUtils.todayIsLessThanDateCompare(this.props.dateStartEvent)) {
 
             return (
                 <div className="time-down">
@@ -55,7 +51,7 @@ class Calendar extends React.Component {
             )
         }
 
-        if (timeUtils.compareDateWithToday(this.props.dateFinishEvent)) {
+        if (timeUtils.todayIsLessThanDateCompare(this.props.dateFinishEvent)) {
             clearInterval(this.state.intervalId) 
             return <div><h2>Evento em andamento!</h2></div>
         }

@@ -20,7 +20,7 @@ const getDifference = (dateStarted) => {
     return { days: days, hours: hours, minutes: minutes, seconds: seconds }
 }
 
-const compareDateWithToday = (dateToCompare) => {
+const todayIsLessThanDateCompare = (dateToCompare) => {
 
     const date = new Date(dateToCompare)
     const today = new Date()
@@ -30,5 +30,5 @@ const compareDateWithToday = (dateToCompare) => {
 
 export const timeUtils = {
     getDifference,
-    compareDateWithToday
+    todayIsLessThanDateCompare
 }

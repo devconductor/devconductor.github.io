@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import Head from 'next/head'
+import site from '../utils/config'
+import { timeUtils } from '../utils/time'
 
 class Header extends React.Component {
     
@@ -23,6 +25,9 @@ class Header extends React.Component {
     }
 
     render() {
+
+        const registration = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationFinish)
+
         return (
             <React.Fragment>
                 <Head>
@@ -33,27 +38,26 @@ class Header extends React.Component {
                     <div className="left">
                         {
                             !this.state.scrolling &&
-                            <Link href="/"><a><img src="/static/img/logos/logo_vertical_white.png" alt="logo-evento"/></a></Link>
+                            <Link href="/"><a><img src={site.menu.logos.initial} alt="logo-evento"/></a></Link>
                         }
                         {
                             this.state.scrolling &&
-                            <Link href="/"><a><img src="/static/img/logos/logo_vertical_purple.png" alt="logo-evento"/></a></Link>
+                            <Link href="/"><a><img src={site.menu.logos.scrolling} alt="logo-evento"/></a></Link>
                         }
                     </div>
                     <div className="center">
                         <ul>
-                            <li><Link href="/"><a>Início</a></Link></li>
-                            <li><Link href="/hackathon"><a>Hackathon</a></Link></li>
+                            { site.menu.links.map(link => <li key={link.name}><Link href={link.path}><a>{link.name}</a></Link></li>)}
                         </ul>
                     </div>
                     <div className="right">
                         { 
                             !this.state.scrolling && 
-                            <a href="https://conductor.com.br" target="_blank"><img src="/static/img/logos/logo_conductor_branca.png" alt="logo-conductor"/></a>
+                            <a href={site.enterprise.site} target="_blank"><img src={site.enterprise.logo} alt={site.enterprise.name}/></a>
                         }
                         {
-                            this.state.scrolling &&
-                            <a href="https://pt.surveymonkey.com/r/geekforaweek" target="_blank"><button>Inscreva-se</button></a>
+                            this.state.scrolling && registration &&
+                            <a href={site.hackathon.linkRegistration} target="_blank"><button>Inscreva-se</button></a>
                         }
                     </div>
                 </div>
