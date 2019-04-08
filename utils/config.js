@@ -155,7 +155,7 @@ const site = {
                 description: 'Fiquem atentos aos horários.',
                 topics: [
                     'Inscrições - 08/04/2019 à 12/04/2019',
-                    'Abertura/Apresentação - 29/04/2019 19:00 à 29/04/2019 20:00',
+                    'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019',
                     'Mão na massa - 30/04/2019 à 04/05/2019',
                     'Apresentações e resultados - 05/05/2019',
                     'Premiação - 06/05/2019 à 13/05/2019'
