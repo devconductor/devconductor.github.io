@@ -2,9 +2,9 @@ const site = {
 
     title: 'Geek for a week',
     logo: '/static/img/logos/logo_horizontal_white.png',
-    dateEventDetail: 'De 29 de abril a 04 de maio!',
+    dateEventDetail: 'De 29 de abril a 05 de maio!',
     dateEventStart: '04/29/2019 19:00:00',
-    dateEventFinish: '05/05/2019 00:00:00',
+    dateEventFinish: '05/06/2019 14:00:00',
     dateRegistrationStart: '04/08/2019',
     dateRegistrationFinish: '04/13/2019',
     menu: {
