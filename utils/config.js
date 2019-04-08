@@ -141,7 +141,7 @@ const site = {
             },
             {
                 title: 'Eita! E como será o Hackathon?',
-                description: 'Ocorrerá no dia 29 de abril a 05 de abril de 2019.',
+                description: 'Ocorrerá no dia 29 de abril a 05 de maio de 2019.',
                 topics: [
                     'Um tema será lançado e as equipes inscritas deverão formular uma ideia e, literalmente, desenvolvê-la.',
                     'A tecnologia utilizada? Vocês escolhem!',
