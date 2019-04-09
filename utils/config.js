@@ -164,16 +164,16 @@ const site = {
         ],
         awards: [
             {
-                title: '3º Lugar',
-                award: '2 mil reais'
+                title: '1º Lugar',
+                award: '8 mil reais'
             },
             {
                 title: '2º Lugar',
                 award: '4 mil reais'
             },
             {
-                title: '1º Lugar',
-                award: '8 mil reais'
+                title: '3º Lugar',
+                award: '2 mil reais'
             },
         ],
         judges: [

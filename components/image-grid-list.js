@@ -21,7 +21,7 @@ class ImageGridList extends React.Component {
 
         return (
             <div className={classes.root}>
-              <GridList cellHeight={300} className={classes.gridList} cols={3}>
+              <GridList cellHeight={500} className={classes.gridList} cols={2}>
                 {site.enterpriseGallery.tileData.map(tile => (
                   <GridListTile key={tile.img} cols={tile.cols || 1}>
                         <img src={tile.img} alt={tile.title}/>

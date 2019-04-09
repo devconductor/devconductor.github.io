@@ -5,7 +5,7 @@ class AnimatedText extends React.Component {
     createCharsAnimated = (text) => {
         const chars = []
         for (let i = 0; i < text.length; i++) {
-            chars.push(<ScrollAnimation className="word" key={i} animateIn="fadeInDownBig" animateOnce delay={i * 100}>{text.charAt(i)}</ScrollAnimation>)
+            chars.push(<ScrollAnimation className="word" key={i} animateIn="fadeInDownBig" animateOnce delay={i * 70}>{text.charAt(i)}</ScrollAnimation>)
         }
         return chars
     }

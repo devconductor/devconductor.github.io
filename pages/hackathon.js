@@ -55,14 +55,10 @@ class Hackathon extends React.Component {
                     <div className="awards">
                         {
                             site.hackathon.awards.map((award, index) => {
-                                let animation = 'fadeIn'
-                                if (index + 1 === site.hackathon.awards.length) {
-                                    animation = 'tada'
-                                }
                                 return (
                                     <div className="award" key={index}>
-                                        <ScrollAnimation animateIn={animation} animateOnce delay={index * 400}>
-                                            <img src="/static/img/sprites/cash.png" width="180"/>
+                                        <ScrollAnimation animateIn="tada" animateOnce delay={index * 500}>
+                                            <img src="/static/img/icons/money.png" width="180"/>
                                             <h2>{award.title}</h2>
                                             <p>{award.award}</p>
                                         </ScrollAnimation>

@@ -75,3 +75,24 @@
         }
     }
 }
+
+@-moz-document url-prefix() {
+    .header {
+
+        .left {
+            top: 10px;
+        }
+
+        .right {
+            top: 25px;
+        }
+    }
+
+    @media(max-width: 850px) {
+        .header {
+            .center {
+                top: 30px;
+            }
+        }
+    }
+}
