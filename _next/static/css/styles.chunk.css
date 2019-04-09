@@ -1,0 +1,283 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+.backdrop {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: #3e3e3e;
+  opacity: 0.7; }
+  .backdrop.mini {
+    height: 50vh; }
+
+.time-down {
+  margin: 20px 0;
+  text-align: center; }
+  .time-down .time, .time-down span {
+    display: inline-block;
+    font-size: xx-large;
+    margin: 0 15px;
+    color: white; }
+    .time-down .time label, .time-down span label {
+      font-size: small;
+      display: table-cell; }
+
+@media (max-width: 500px) {
+  .time-down .time, .time-down span {
+    margin: 0 5px; } }
+
+.footer {
+  width: 100%;
+  height: 120px;
+  background: #1d1d1d;
+  text-align: center;
+  display: flex;
+  align-items: center; }
+  .footer .footer-info {
+    color: white;
+    margin: 0 auto; }
+    .footer .footer-info .footer-social-network a {
+      margin: 0 15px; }
+      .footer .footer-info .footer-social-network a img {
+        width: 32px;
+        height: auto; }
+        .footer .footer-info .footer-social-network a img:hover {
+          cursor: pointer;
+          transition-duration: 0.9s;
+          transform: rotate(360deg); }
+    .footer .footer-info .footer-copyright a {
+      text-decoration: none;
+      color: #5abeee; }
+      .footer .footer-info .footer-copyright a:hover {
+        color: #2cace9; }
+
+.bt-central button {
+  margin: 0 10px; }
+
+.event-details {
+  color: white;
+  text-align: left;
+  padding: 20px; }
+  .event-details h2 {
+    margin: 20px 0; }
+  .event-details p {
+    margin: 10px 0; }
+  .event-details li {
+    margin: 6px 0; }
+
+.awards {
+  margin-top: 40px;
+  color: white;
+  text-align: center; }
+  .awards .award {
+    display: inline-block;
+    margin: 20px 100px; }
+
+.judges {
+  margin-top: 40px;
+  color: white; }
+  .judges .judge {
+    display: inline-block;
+    margin: 20px 50px; }
+    .judges .judge img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%; }
+    .judges .judge h2 {
+      margin-top: 10px; }
+
+@media (max-width: 950px) {
+  .awards .award {
+    margin: 20px 50px; } }
+
+.header {
+  width: 100%;
+  position: fixed;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  color: white;
+  z-index: 100; }
+  .header a:hover {
+    color: #5abeee !important; }
+  .header.scrolling {
+    background: white;
+    box-shadow: 0px 5px 12px -2px #838383; }
+    .header.scrolling a {
+      color: black !important; }
+      .header.scrolling a:hover {
+        color: #5abeee !important; }
+  .header .left {
+    position: absolute;
+    left: 30px; }
+    .header .left img {
+      width: 100px;
+      height: auto; }
+  .header .center {
+    margin: 0 auto; }
+    .header .center ul {
+      list-style: none; }
+      .header .center ul li {
+        display: inline;
+        margin: 0 10px; }
+        .header .center ul li a {
+          color: white;
+          text-decoration: none; }
+  .header .right {
+    position: absolute;
+    right: 30px; }
+    .header .right img {
+      width: 120px;
+      height: auto; }
+
+@media (max-width: 850px) {
+  .header .right {
+    display: none; }
+  .header .center {
+    position: absolute;
+    right: 20px; } }
+
+@-moz-document url-prefix() {
+  .header .left {
+    top: 10px; }
+  .header .right {
+    top: 25px; }
+  @media (max-width: 850px) {
+    .header .center {
+      top: 30px; } } }
+
+.mini-section {
+  width: 100%;
+  z-index: 2;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .mini-section .mini-section-content {
+    z-index: 3;
+    min-height: 50vh; }
+    .mini-section .mini-section-content.align-center {
+      display: flex;
+      align-items: center; }
+    .mini-section .mini-section-content .mini-section-body {
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px 0;
+      max-width: 90%; }
+      .mini-section .mini-section-content .mini-section-body .title {
+        color: white;
+        font-size: xx-large;
+        font-weight: 100; }
+      .mini-section .mini-section-content .mini-section-body .title-space {
+        margin-top: 30px; }
+
+.section {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  z-index: 2;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .section .section-content {
+    z-index: 3; }
+    .section .section-content.section-first {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh; }
+    .section .section-content.align-center {
+      display: flex;
+      align-items: center; }
+    .section .section-content .section-body {
+      margin: 0 auto;
+      text-align: center;
+      padding: 10px;
+      max-width: 95%; }
+      .section .section-content .section-body .title {
+        color: black;
+        font-size: xx-large;
+        font-weight: 100; }
+        .section .section-content .section-body .title .logo {
+          width: 700px;
+          max-width: 90%; }
+      .section .section-content .section-body .title-space {
+        margin-top: 30px; }
+
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  color: white; }
+  *::-webkit-scrollbar {
+    background: white;
+    width: 6px;
+    height: 6px; }
+  *::-webkit-scrollbar-thumb {
+    background: #1d1d1d; }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 69px;
+  font-weight: 100;
+  color: white; }
+
+button {
+  border: none;
+  padding: 8px;
+  background: #513b90;
+  color: white;
+  border-radius: 4px; }
+  button:hover {
+    cursor: pointer;
+    background: #3d2c6c; }
+  button.large {
+    padding: 12px;
+    font-size: 1.2em; }
+  button:focus {
+    outline: none; }
+
+.about-geek {
+  color: white; }
+  .about-geek label {
+    font-size: x-large;
+    font-weight: 400; }
+
+.info-metas {
+  margin: 0 40px; }
+  .info-metas .number, .info-metas .hifen {
+    font-size: 5em;
+    color: #5abeee;
+    font-weight: bold;
+    text-shadow: 3px 3px #050505; }
+  .info-metas .hifen {
+    font-weight: 100; }
+  .info-metas .unit, .info-metas .description {
+    font-size: large;
+    color: white; }
+
+.follow-twitter {
+  margin-top: 60px;
+  font-size: 5em; }
+  .follow-twitter a {
+    color: #5abeee;
+    text-decoration: none; }
+    .follow-twitter a:hover {
+      color: #2cace9; }
+
+.text-styled .word {
+  color: #5abeee !important; }
+
+.animated-text {
+  display: inline-block; }
+  .animated-text .word {
+    display: inline-block; }
+
+@media (max-width: 650px) {
+  .follow-twitter {
+    font-size: 2.5em; } }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/
