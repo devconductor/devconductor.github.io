@@ -23,44 +23,56 @@ const site = {
             {
                 title: 'Hackathon',
                 img: '/static/img/section-about/hackathon.jpg',
-                description: 'Uma semana competindo pela chance de mudar completamente sua carreira. Não vai faltar networking, comida à vontade e diversão! Traga seu time!'
+                description: 'Uma semana competindo com chance de transformar a experiência de compra de nosso cliente e o mercado de meios de pagamento. Traga seu time!'
             },
             {
                 title: 'Equipes mistas',
                 img: '/static/img/section-about/workshop.jpg',
-                description: 'As equipes deverão ter no mínimo 1 (um) Integrante de cada unidade da Conductor  e esses integrantes deverão ser de Squads diversificadas.'
+                description: 'As equipes deverão ter no mínimo 1 (um) Integrante de cada unidade da Conductor e esses integrantes deverão ser de squads diversificadas.'
             },
             {
                 title: 'Lanches',
                 img: '/static/img/section-about/lanches.jpg',
-                description: 'Para ser possível "dar o gás" durante o evento, haverá vários lanches e energéticos disponivéis para você e sua equipe.'
+                description: 'Para ser possível "dar o gás" durante o evento, haverá vários lanches e energéticos disponíveis para você e sua equipe.'
             },
         ],
         numbersEnterprise: [
             {
-                number: 75,
-                unit: 'milhões',
-                description: 'de cartões cadastrados'
+                number: 100,
+                unit: '',
+                description: 'colaboradores'
             },
             {
-                number: 18,
-                unit: 'milhões',
-                description: 'de usuários ativos'
+                number: 50,
+                unit: '',
+                description: 'clientes'
             },
             {
-                number: 800,
-                unit: 'milhões',
-                description: 'de transação por ano'
+                number: 10,
+                unit: '',
+                description: 'projetos'
+            },
+        ],
+        projects: [
+            {
+                img: '/static/img/projects/heimdall.png',
+                name: 'Heimdall'
             },
             {
-                number: 60,
-                unit: 'bilhões de reais',
-                description: 'transacionados por ano'
+                img: '/static/img/projects/pier.png',
+                name: 'Pier'
             },
             {
-                number: 600,
-                unit: 'funcionários',
-                description: 'em três escritórios'
+                img: '/static/img/projects/iris.png',
+                name: 'Iris'
+            },
+            {
+                img: '/static/img/projects/vat60.png',
+                name: 'Vat60'
+            },
+            {
+                img: '/static/img/projects/sgr.png',
+                name: 'SGR'
             },
         ]
     },

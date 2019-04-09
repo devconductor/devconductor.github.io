@@ -75,12 +75,13 @@ class Index extends React.Component {
                         </Grid>
                     </div>
                 </MiniSection>
-                <MiniSection backgroundImage={`url('/static/img/section-background/geeks.png')`} alignCenter>
+                <MiniSection backgroundImage={`url('/static/img/section-background/geeks.png')`} title="Sobre os Geeks">
+                    <br /><br />
                     <Grid container spacing={8} alignItems="center" justify="space-evenly">
                         {site.about.numbersEnterprise.map((numberEnterprise, index) => {
                             return (
                                 <div className="info-metas" key={index}>
-                                    <ScrollAnimation animateIn="slideInUp" animateOnce afterAnimatedIn={index === 0 && this.enableAnimatedNumbers}>
+                                    <ScrollAnimation animateIn="zoomIn" animateOnce afterAnimatedIn={index === 0 && this.enableAnimatedNumbers}>
                                         <div className="number"><AnimatedNumber number={numberEnterprise.number} startAnimation={this.state.canAnimatedNumbers}/>+</div>
                                         <div className="unit">{numberEnterprise.unit}</div>
                                         <div className="description">{numberEnterprise.description}</div>
@@ -89,11 +90,21 @@ class Index extends React.Component {
                             )    
                         })}
                     </Grid>
+                    <Grid container spacing={8} alignItems="center" justify="space-evenly" className="projects">
+                        { 
+                            site.about.projects.map((project, index) => {
+                                return (
+                                    <ScrollAnimation animateIn="bounceIn" animateOnce delay={index * 200} duration={4} key={project.name}>
+                                        <img src={project.img} alt={project.name} />
+                                    </ScrollAnimation>
+                                )
+                            })
+                        }
+                    </Grid>
                 </MiniSection>
-                <Section alignCenter>
-                    <br/>
+                <MiniSection alignCenter>
                     <ImageGridList />
-                </Section>
+                </MiniSection>
                 <MiniSection alignCenter backgroundImage={`url('/static/img/section-background/noc.png')`}>
                     <ScrollAnimation animateIn="pulse" duration={2}><img src="/static/img/icons/twitter-white.png" alt="twitter"/><br/></ScrollAnimation>
                     <h1 className="follow-twitter">Siga a hashtag <a href="https://twitter.com/search?q=%23GeekForAWeek" target="_blank">

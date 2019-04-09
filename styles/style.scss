@@ -7,6 +7,8 @@
 @import './mini-section.scss';
 @import './section.scss';
 @import '../node_modules/animate.css/animate.min.css';
+@import '../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
+@import '../node_modules/react-image-gallery/styles/scss/image-gallery-no-icon.scss';
 
 * {
     margin: 0;
@@ -63,7 +65,7 @@ button {
 
 .info-metas {
 
-    margin: 0 40px;
+    margin: 20px;
 
     .number, .hifen {
         font-size: 5em;
@@ -106,6 +108,32 @@ button {
     display: inline-block;
     .word {
         display: inline-block;
+    }
+}
+
+.gallery-custom {
+    .fullscreen {
+    
+        .image-gallery-image img {
+            height: 100vh;
+            width: auto;
+        }
+    }
+    .image-gallery-image img {
+        height: 80vh;
+        width: auto;
+    }
+}
+
+.projects {
+
+    padding: 50px 0;
+
+    img {
+        max-width: 180px;
+        height: auto;
+        display: inline-block;
+        margin: 20px;
     }
 }
 
