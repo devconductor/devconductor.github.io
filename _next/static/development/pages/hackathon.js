@@ -96,16 +96,38 @@ var _jsxFileName = "C:\\Users\\manoel.filho\\Documents\\GitHub\\devconductor.git
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.logo,
+    alt: _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.name,
+    width: "120",
+    height: "auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].footer.copyrigth), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].footer.copyrigth), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
     },
     __self: this
   }, "Site desenvolvido pela ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -113,7 +135,7 @@ var _jsxFileName = "C:\\Users\\manoel.filho\\Documents\\GitHub\\devconductor.git
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.name), "."))));
@@ -11168,7 +11190,22 @@ function (_React$Component) {
           lineNumber: 28
         },
         __self: this
-      }, registration && react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.regulamento,
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        className: "large",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
+      }, "Regulamento")), registration && react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.linkRegistration,
         target: "_blank",
         __source: {
@@ -11411,7 +11448,7 @@ var site = {
       unit: '',
       description: 'clientes'
     }, {
-      number: 10,
+      number: 200,
       unit: '',
       description: 'projetos'
     }],
@@ -11430,51 +11467,45 @@ var site = {
     }, {
       img: '/static/img/projects/sgr.png',
       name: 'SGR'
+    }, {
+      img: '/static/img/projects/cronos.png',
+      name: 'Cronos'
     }]
   },
   enterpriseGallery: {
     title: 'Condutor Tecnologia',
     tileData: [{
-      img: '/static/img/venue/venue_5.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_5.jpg'
     }, {
-      img: '/static/img/venue/venue_9.jpeg',
-      cols: 1
+      img: '/static/img/venue/venue_9.jpeg'
     }, {
-      img: '/static/img/venue/venue_4.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_4.jpg'
     }, {
-      img: '/static/img/venue/venue_10.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_10.jpg'
     }, {
-      img: '/static/img/venue/venue_12.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_12.jpg'
     }, {
-      img: '/static/img/venue/venue_2.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_2.jpg'
     }, {
-      img: '/static/img/venue/venue_7.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_7.jpg'
     }, {
-      img: '/static/img/venue/venue_11.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_11.jpg'
     }, {
-      img: '/static/img/venue/venue_3.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_13.jpg'
     }, {
-      img: '/static/img/venue/venue_8.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_3.jpg'
     }, {
-      img: '/static/img/venue/venue_6.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_8.jpg'
     }, {
-      img: '/static/img/venue/venue_1.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_6.jpg'
+    }, {
+      img: '/static/img/venue/venue_1.jpg'
     }]
   },
   hashtag: '#Geekforaweek',
   hackathon: {
     linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
+    regulamento: '/static/docs/regulamento.pdf',
     details: [{
       title: 'Como saber se você está “nos trinques” para o Hackaton?',
       description: 'Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara... é só se inscrever!',

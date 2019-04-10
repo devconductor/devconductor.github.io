@@ -30,14 +30,15 @@
 
 .footer {
   width: 100%;
-  height: 120px;
+  min-height: 120px;
   background: #1d1d1d;
   text-align: center;
   display: flex;
   align-items: center; }
   .footer .footer-info {
     color: white;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding: 20px 0; }
     .footer .footer-info .footer-social-network a {
       margin: 0 15px; }
       .footer .footer-info .footer-social-network a img {
@@ -889,14 +890,21 @@ button {
 .projects {
   padding: 50px 0; }
   .projects img {
+    max-height: 120px;
     max-width: 180px;
-    height: auto;
+    width: auto;
     display: inline-block;
     margin: 20px; }
 
 @media (max-width: 650px) {
   .follow-twitter {
     font-size: 2.5em; } }
+
+@-moz-document url-prefix() {
+  .projects .animated {
+    margin: 0 auto; }
+  .info-metas {
+    margin: 0 auto; } }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

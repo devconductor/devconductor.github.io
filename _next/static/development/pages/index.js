@@ -548,16 +548,38 @@ var _jsxFileName = "C:\\Users\\manoel.filho\\Documents\\GitHub\\devconductor.git
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.logo,
+    alt: _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.name,
+    width: "120",
+    height: "auto",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].footer.copyrigth), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].footer.copyrigth), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h5", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
     },
     __self: this
   }, "Site desenvolvido pela ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -565,7 +587,7 @@ var _jsxFileName = "C:\\Users\\manoel.filho\\Documents\\GitHub\\devconductor.git
     target: "_blank",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 22
     },
     __self: this
   }, _utils_config__WEBPACK_IMPORTED_MODULE_1__["default"].enterprise.name), "."))));
@@ -853,10 +875,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _material_ui_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @material-ui/core */ "./node_modules/@material-ui/core/index.es.js");
-/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-image-gallery */ "./node_modules/react-image-gallery/build/image-gallery.js");
-/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _utils_config__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../utils/config */ "./utils/config.js");
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-image-gallery */ "./node_modules/react-image-gallery/build/image-gallery.js");
+/* harmony import */ var react_image_gallery__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _utils_config__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../utils/config */ "./utils/config.js");
 
 
 
@@ -868,22 +889,6 @@ var _jsxFileName = "C:\\Users\\manoel.filho\\Documents\\GitHub\\devconductor.git
 
 
 
-
-
-var styles = function styles(theme) {
-  return {
-    root: {
-      display: 'flex',
-      flexWrap: 'wrap',
-      justifyContent: 'space-around',
-      overflow: 'hidden'
-    },
-    gridList: {
-      width: '90%',
-      height: '95vh'
-    }
-  };
-};
 
 var ImageGridList =
 /*#__PURE__*/
@@ -904,7 +909,7 @@ function (_React$Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ImageGridList)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "getImages", function () {
-      return _utils_config__WEBPACK_IMPORTED_MODULE_10__["default"].enterpriseGallery.tileData.map(function (tile) {
+      return _utils_config__WEBPACK_IMPORTED_MODULE_9__["default"].enterpriseGallery.tileData.map(function (tile) {
         return {
           original: tile.img,
           thumbnail: tile.img
@@ -918,35 +923,23 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ImageGridList, [{
     key: "render",
     value: function render() {
-      var classes = this.props.classes;
-      return (// <div className={classes.root}>
-        //   <GridList cellHeight={500} className={classes.gridList} cols={2}>
-        //     {site.enterpriseGallery.tileData.map(tile => (
-        //       <GridListTile key={tile.img} cols={tile.cols || 1}>
-        //             <img src={tile.img} alt={tile.title}/>
-        //       </GridListTile>
-        //     ))}
-        //   </GridList>
-        // </div>
-        react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_image_gallery__WEBPACK_IMPORTED_MODULE_9___default.a, {
-          items: this.getImages(),
-          thumbnailPosition: "left",
-          additionalClass: "gallery-custom",
-          autoPlay: true,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 42
-          },
-          __self: this
-        })
-      );
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_image_gallery__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        items: this.getImages(),
+        thumbnailPosition: "left",
+        additionalClass: "gallery-custom",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17
+        },
+        __self: this
+      });
     }
   }]);
 
   return ImageGridList;
 }(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(_material_ui_core__WEBPACK_IMPORTED_MODULE_8__["withStyles"])(styles)(ImageGridList));
+/* harmony default export */ __webpack_exports__["default"] = (ImageGridList);
 
 /***/ }),
 
@@ -62103,7 +62096,7 @@ var site = {
       unit: '',
       description: 'clientes'
     }, {
-      number: 10,
+      number: 200,
       unit: '',
       description: 'projetos'
     }],
@@ -62122,51 +62115,45 @@ var site = {
     }, {
       img: '/static/img/projects/sgr.png',
       name: 'SGR'
+    }, {
+      img: '/static/img/projects/cronos.png',
+      name: 'Cronos'
     }]
   },
   enterpriseGallery: {
     title: 'Condutor Tecnologia',
     tileData: [{
-      img: '/static/img/venue/venue_5.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_5.jpg'
     }, {
-      img: '/static/img/venue/venue_9.jpeg',
-      cols: 1
+      img: '/static/img/venue/venue_9.jpeg'
     }, {
-      img: '/static/img/venue/venue_4.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_4.jpg'
     }, {
-      img: '/static/img/venue/venue_10.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_10.jpg'
     }, {
-      img: '/static/img/venue/venue_12.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_12.jpg'
     }, {
-      img: '/static/img/venue/venue_2.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_2.jpg'
     }, {
-      img: '/static/img/venue/venue_7.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_7.jpg'
     }, {
-      img: '/static/img/venue/venue_11.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_11.jpg'
     }, {
-      img: '/static/img/venue/venue_3.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_13.jpg'
     }, {
-      img: '/static/img/venue/venue_8.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_3.jpg'
     }, {
-      img: '/static/img/venue/venue_6.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_8.jpg'
     }, {
-      img: '/static/img/venue/venue_1.jpg',
-      cols: 1
+      img: '/static/img/venue/venue_6.jpg'
+    }, {
+      img: '/static/img/venue/venue_1.jpg'
     }]
   },
   hashtag: '#Geekforaweek',
   hackathon: {
     linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
+    regulamento: '/static/docs/regulamento.pdf',
     details: [{
       title: 'Como saber se você está “nos trinques” para o Hackaton?',
       description: 'Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara... é só se inscrever!',
