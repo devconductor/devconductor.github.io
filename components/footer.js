@@ -16,6 +16,8 @@ export default () => (
             </div>
             <br/>
             <div className="footer-copyright">
+                <img src={site.enterprise.logo} alt={site.enterprise.name} width="120" height="auto"/>
+                <br/><br/>
                 <h5>{site.footer.copyrigth}</h5>
                 <h5>Site desenvolvido pela <a href={site.enterprise.site} target="_blank">{site.enterprise.name}</a>.</h5>
             </div>

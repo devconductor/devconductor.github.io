@@ -130,8 +130,9 @@ button {
     padding: 50px 0;
 
     img {
+        max-height: 120px;
         max-width: 180px;
-        height: auto;
+        width: auto;
         display: inline-block;
         margin: 20px;
     }
@@ -140,5 +141,19 @@ button {
 @media(max-width: 650px) {
     .follow-twitter {
         font-size: 2.5em;
+    }
+}
+
+@-moz-document url-prefix() {
+    .projects {
+        
+        .animated {
+            margin: 0 auto;
+        }
+    }
+
+    .info-metas {
+
+        margin: 0 auto;
     }
 }

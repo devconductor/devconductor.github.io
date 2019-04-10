@@ -26,7 +26,7 @@ class Hackathon extends React.Component {
                 <MiniSection title={registration ? 'Inscrições Abertas!' : 'Inscrições encerradas!'}>
                     <br/>
                     <div className="bt-central">
-                        {/* <button className="large">Regulamento</button> */}
+                        <a href={site.hackathon.regulation} target="_blank"><button className="large">Regulamento</button></a>
                         {
                             registration &&
                             <a href={site.hackathon.linkRegistration} target="_blank"><button className="large">Inscreva-se</button></a>

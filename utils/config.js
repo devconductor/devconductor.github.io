@@ -48,7 +48,7 @@ const site = {
                 description: 'clientes'
             },
             {
-                number: 10,
+                number: 200,
                 unit: '',
                 description: 'projetos'
             },
@@ -74,6 +74,10 @@ const site = {
                 img: '/static/img/projects/sgr.png',
                 name: 'SGR'
             },
+            {
+                img: '/static/img/projects/cronos.png',
+                name: 'Cronos'
+            },
         ]
     },
     enterpriseGallery: {
@@ -81,57 +85,49 @@ const site = {
         tileData: [
             {
                 img: '/static/img/venue/venue_5.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_9.jpeg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_4.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_10.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_12.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_2.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_7.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_11.jpg',
-                cols: 1,
+            },
+            {
+                img: '/static/img/venue/venue_13.jpg'
             },
             {
                 img: '/static/img/venue/venue_3.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_8.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_6.jpg',
-                cols: 1,
             },
             {
                 img: '/static/img/venue/venue_1.jpg',
-                cols: 1,
             }
         ],
     },
     hashtag: '#Geekforaweek',
     hackathon: {
         linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
+        regulation: '/static/docs/regulamento.pdf',
         details: [
             {
                 title: 'Como saber se você está “nos trinques” para o Hackaton?',
