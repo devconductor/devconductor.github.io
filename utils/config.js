@@ -143,7 +143,7 @@ const site = {
                 title: 'O que você precisa fazer para se inscrever?',
                 description: 'Não se aperreie que a gente explica!',
                 topics: [
-                    'Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe, colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.',
+                    'Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.',
                     'Acesse o link e inscreva-se!  Desta vez as inscrições serão realizadas por equipes!',
                 ]
             },
@@ -164,7 +164,7 @@ const site = {
                 topics: [
                     'Inscrições - 12/04/2019 à 19/04/2019',
                     'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019',
-                    'Mão na massa - 30/04/2019 à 04/05/2019',
+                    'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)',
                     'Apresentações e resultados - 05/05/2019',
                     'Premiação - 06/05/2019 à 13/05/2019'
                 ]
