@@ -26,7 +26,9 @@ class Header extends React.Component {
 
     render() {
 
-        const registration = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationFinish)
+        const registrationStarted = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationStart)
+        const registrationFinish = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationFinish)
+        
 
         return (
             <React.Fragment>
@@ -56,7 +58,7 @@ class Header extends React.Component {
                             <a href={site.enterprise.site} target="_blank"><img src={site.enterprise.logo} alt={site.enterprise.name}/></a>
                         }
                         {
-                            this.state.scrolling && registration &&
+                            this.state.scrolling && !registrationStarted && registrationFinish &&
                             <a href={site.hackathon.linkRegistration} target="_blank"><button>Inscreva-se</button></a>
                         }
                     </div>

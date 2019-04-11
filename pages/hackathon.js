@@ -11,7 +11,22 @@ class Hackathon extends React.Component {
 
     render() {
 
-        const registration = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationFinish)
+        const registrationStarted = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationStart)
+        const registrationFinish = timeUtils.todayIsLessThanDateCompare(site.dateRegistrationFinish)
+
+        let title = ''
+
+        // if (registrationStarted) {
+        //     title = `Inscrições a partir de ${timeUtils.convertDate(site.dateRegistrationStart)}`
+        // }
+
+        if (!registrationStarted) {
+            title = 'Inscrições abertas!'
+        }
+
+        if (!registrationFinish) {
+            title = 'Inscrições encerradas!'
+        }
 
         return (
             <React.Fragment>
@@ -23,12 +38,19 @@ class Hackathon extends React.Component {
                     backgroundImage={`url('/static/img/section-background/background-banner-2.JPG')`}>
                     <h1>{site.dateEventDetail}</h1>
                 </Section>
-                <MiniSection title={registration ? 'Inscrições Abertas!' : 'Inscrições encerradas!'}>
+                <MiniSection title={title}>
                     <br/>
+                    {
+                        registrationStarted &&
+                        <React.Fragment>
+                            <h1>{`Inscrições a partir de ${timeUtils.convertDate(site.dateRegistrationStart)}`}</h1>
+                            <br/>
+                        </React.Fragment>
+                    }
                     <div className="bt-central">
                         <a href={site.hackathon.regulation} target="_blank"><button className="large">Regulamento</button></a>
                         {
-                            registration &&
+                            !registrationStarted && registrationFinish &&
                             <a href={site.hackathon.linkRegistration} target="_blank"><button className="large">Inscreva-se</button></a>
                         }
                     </div>
