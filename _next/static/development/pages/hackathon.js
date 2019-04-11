@@ -237,17 +237,18 @@ function (_React$Component) {
   }, {
     key: "render",
     value: function render() {
-      var registration = _utils_time__WEBPACK_IMPORTED_MODULE_12__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].dateRegistrationFinish);
+      var registrationStarted = _utils_time__WEBPACK_IMPORTED_MODULE_12__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].dateRegistrationStart);
+      var registrationFinish = _utils_time__WEBPACK_IMPORTED_MODULE_12__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].dateRegistrationFinish);
       return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_8___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 34
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 35
         },
         __self: this
       }, !this.state.scrolling && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
@@ -255,7 +256,7 @@ function (_React$Component) {
         content: "#1D1D1D",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 34
+          lineNumber: 36
         },
         __self: this
       }), this.state.scrolling && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("meta", {
@@ -263,34 +264,34 @@ function (_React$Component) {
         content: "#FFFFFF",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 37
         },
         __self: this
       })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "header ".concat(this.state.scrolling && 'scrolling'),
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 39
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 40
         },
         __self: this
       }, !this.state.scrolling && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -298,20 +299,20 @@ function (_React$Component) {
         alt: "logo-evento",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 43
         },
         __self: this
       }))), this.state.scrolling && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -319,20 +320,20 @@ function (_React$Component) {
         alt: "logo-evento",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 47
         },
         __self: this
       })))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         className: "center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 49
+          lineNumber: 51
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].menu.links.map(function (link) {
@@ -340,20 +341,20 @@ function (_React$Component) {
           key: link.name,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 52
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
           href: link.path,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 52
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 50
+            lineNumber: 52
           },
           __self: this
         }, link.name)));
@@ -361,7 +362,7 @@ function (_React$Component) {
         className: "right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 55
         },
         __self: this
       }, !this.state.scrolling && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
@@ -369,7 +370,7 @@ function (_React$Component) {
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
@@ -377,21 +378,21 @@ function (_React$Component) {
         alt: _utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].enterprise.name,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 58
         },
         __self: this
-      })), this.state.scrolling && registration && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+      })), this.state.scrolling && !registrationStarted && registrationFinish && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
         href: _utils_config__WEBPACK_IMPORTED_MODULE_11__["default"].hackathon.linkRegistration,
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 60
+          lineNumber: 62
         },
         __self: this
       }, "Inscreva-se")))));
@@ -11121,29 +11122,42 @@ function (_React$Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Hackathon, [{
     key: "render",
     value: function render() {
-      var registration = _utils_time__WEBPACK_IMPORTED_MODULE_13__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].dateRegistrationFinish);
+      var registrationStarted = _utils_time__WEBPACK_IMPORTED_MODULE_13__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].dateRegistrationStart);
+      var registrationFinish = _utils_time__WEBPACK_IMPORTED_MODULE_13__["timeUtils"].todayIsLessThanDateCompare(_utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].dateRegistrationFinish);
+      var title = ''; // if (registrationStarted) {
+      //     title = `Inscrições a partir de ${timeUtils.convertDate(site.dateRegistrationStart)}`
+      // }
+
+      if (!registrationStarted) {
+        title = 'Inscrições abertas!';
+      }
+
+      if (!registrationFinish) {
+        title = 'Inscrições encerradas!';
+      }
+
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 17
+          lineNumber: 32
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_6___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 18
+          lineNumber: 33
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("title", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 34
         },
         __self: this
       }, "Geek for a Week")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_header__WEBPACK_IMPORTED_MODULE_9__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 21
+          lineNumber: 36
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_section__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -11154,77 +11168,95 @@ function (_React$Component) {
           src: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].logo,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 22
+            lineNumber: 37
           },
           __self: this
         }),
         backgroundImage: "url('/static/img/section-background/background-banner-2.JPG')",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 37
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 39
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].dateEventDetail)), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        title: registration ? 'Inscrições Abertas!' : 'Inscrições encerradas!',
+        title: title,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 41
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 42
         },
         __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }), registrationStarted && react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, "Inscri\xE7\xF5es a partir de ".concat(_utils_time__WEBPACK_IMPORTED_MODULE_13__["timeUtils"].convertDate(_utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].dateRegistrationStart))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "bt-central",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 50
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.regulamento,
+        href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.regulation,
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 51
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
         className: "large",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 51
         },
         __self: this
-      }, "Regulamento")), registration && react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "Regulamento")), !registrationStarted && registrationFinish && react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.linkRegistration,
         target: "_blank",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 54
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
         className: "large",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 54
         },
         __self: this
       }, "Inscreva-se"))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "event-details",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 35
+          lineNumber: 57
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.details.map(function (detail, index) {
@@ -11232,25 +11264,25 @@ function (_React$Component) {
           key: index,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 39
+            lineNumber: 61
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 40
+            lineNumber: 62
           },
           __self: this
         }, detail.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 63
           },
           __self: this
         }, detail.description), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 42
+            lineNumber: 64
           },
           __self: this
         }, detail.topics.map(function (topic, index) {
@@ -11258,20 +11290,20 @@ function (_React$Component) {
             key: index,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 44
+              lineNumber: 66
             },
             __self: this
           }, topic);
         })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 47
+            lineNumber: 69
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 47
+            lineNumber: 69
           },
           __self: this
         }));
@@ -11280,14 +11312,14 @@ function (_React$Component) {
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 76
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "awards",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 77
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.awards.map(function (award, index) {
@@ -11296,7 +11328,7 @@ function (_React$Component) {
           key: index,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 59
+            lineNumber: 81
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -11305,7 +11337,7 @@ function (_React$Component) {
           delay: index * 500,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 60
+            lineNumber: 82
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -11313,19 +11345,19 @@ function (_React$Component) {
           width: "180",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 61
+            lineNumber: 83
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 62
+            lineNumber: 84
           },
           __self: this
         }, award.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 63
+            lineNumber: 85
           },
           __self: this
         }, award.award)));
@@ -11335,14 +11367,14 @@ function (_React$Component) {
         backgroundImage: "url('/static/img/section-background/judges.png')",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 93
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "judges",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 72
+          lineNumber: 94
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.judges.map(function (judges, index) {
@@ -11351,7 +11383,7 @@ function (_React$Component) {
           key: index,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 76
+            lineNumber: 98
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -11360,27 +11392,27 @@ function (_React$Component) {
           delay: index * 200,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 77
+            lineNumber: 99
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
           src: judges.img,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 78
+            lineNumber: 100
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 79
+            lineNumber: 101
           },
           __self: this
         }, judges.name)));
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 87
+          lineNumber: 109
         },
         __self: this
       }));
@@ -11409,8 +11441,8 @@ var site = {
   dateEventDetail: 'De 29 de abril a 05 de maio!',
   dateEventStart: '04/29/2019 19:00:00',
   dateEventFinish: '05/06/2019 14:00:00',
-  dateRegistrationStart: '04/08/2019',
-  dateRegistrationFinish: '04/13/2019',
+  dateRegistrationStart: '04/12/2019',
+  dateRegistrationFinish: '04/20/2019',
   menu: {
     links: [{
       path: '/',
@@ -11505,7 +11537,7 @@ var site = {
   hashtag: '#Geekforaweek',
   hackathon: {
     linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
-    regulamento: '/static/docs/regulamento.pdf',
+    regulation: '/static/docs/regulamento.pdf',
     details: [{
       title: 'Como saber se você está “nos trinques” para o Hackaton?',
       description: 'Isso é fácil! Se você responder afirmativamente às perguntas abaixo, cara... é só se inscrever!',
@@ -11622,9 +11654,19 @@ var todayIsLessThanDateCompare = function todayIsLessThanDateCompare(dateToCompa
   return today < date;
 };
 
+var convertDate = function convertDate(inputFormat) {
+  function pad(s) {
+    return s < 10 ? '0' + s : s;
+  }
+
+  var d = new Date(inputFormat);
+  return [pad(d.getDate()), pad(d.getMonth() + 1), d.getFullYear()].join('/');
+};
+
 var timeUtils = {
   getDifference: getDifference,
-  todayIsLessThanDateCompare: todayIsLessThanDateCompare
+  todayIsLessThanDateCompare: todayIsLessThanDateCompare,
+  convertDate: convertDate
 };
 
 /***/ }),
