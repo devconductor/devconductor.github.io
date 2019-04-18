@@ -62059,7 +62059,7 @@ var site = {
   dateEventStart: '04/29/2019 19:00:00',
   dateEventFinish: '05/06/2019 14:00:00',
   dateRegistrationStart: '04/12/2019',
-  dateRegistrationFinish: '04/20/2019',
+  dateRegistrationFinish: '04/25/2019',
   menu: {
     links: [{
       path: '/',
@@ -62154,6 +62154,7 @@ var site = {
   hashtag: '#Geekforaweek',
   hackathon: {
     linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
+    linkVolunteers: 'https://pt.surveymonkey.com/r/Geekforaweekvoluntarios',
     regulation: '/static/docs/regulamento.pdf',
     details: [{
       title: 'Como saber se você está “nos trinques” para o Hackaton?',
@@ -62162,7 +62163,7 @@ var site = {
     }, {
       title: 'O que você precisa fazer para se inscrever?',
       description: 'Não se aperreie que a gente explica!',
-      topics: ['Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe, colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.', 'Acesse o link e inscreva-se!  Desta vez as inscrições serão realizadas por equipes!']
+      topics: ['Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.', 'Acesse o link e inscreva-se!  Desta vez as inscrições serão realizadas por equipes!']
     }, {
       title: 'Eita! E como será o Hackathon?',
       description: 'Ocorrerá no dia 29 de abril a 05 de maio de 2019.',
@@ -62170,7 +62171,7 @@ var site = {
     }, {
       title: 'Programação do Hackathon!',
       description: 'Fiquem atentos aos horários.',
-      topics: ['Inscrições - 08/04/2019 à 12/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
+      topics: ['Inscrições - 12/04/2019 à 19/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
     }],
     awards: [{
       title: '1º Lugar',

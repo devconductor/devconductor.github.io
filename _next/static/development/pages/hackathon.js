@@ -11307,19 +11307,39 @@ function (_React$Component) {
           },
           __self: this
         }));
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 74
+        },
+        __self: this
+      }, "Quer participar como volunt\xE1rio?"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.linkVolunteers,
+        target: "_blank",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 75
+        },
+        __self: this
+      }, "Clique aqui")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_mini_section__WEBPACK_IMPORTED_MODULE_10__["default"], {
         title: "Premia\xE7\xE3o",
         alignCenter: true,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 78
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "awards",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 77
+          lineNumber: 79
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.awards.map(function (award, index) {
@@ -11328,7 +11348,7 @@ function (_React$Component) {
           key: index,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 81
+            lineNumber: 83
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -11337,7 +11357,7 @@ function (_React$Component) {
           delay: index * 500,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 82
+            lineNumber: 84
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
@@ -11345,19 +11365,19 @@ function (_React$Component) {
           width: "180",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 83
+            lineNumber: 85
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 84
+            lineNumber: 86
           },
           __self: this
         }, award.title), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 85
+            lineNumber: 87
           },
           __self: this
         }, award.award)));
@@ -11367,14 +11387,14 @@ function (_React$Component) {
         backgroundImage: "url('/static/img/section-background/judges.png')",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 93
+          lineNumber: 95
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "judges",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 94
+          lineNumber: 96
         },
         __self: this
       }, _utils_config__WEBPACK_IMPORTED_MODULE_12__["default"].hackathon.judges.map(function (judges, index) {
@@ -11383,7 +11403,7 @@ function (_React$Component) {
           key: index,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 98
+            lineNumber: 100
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_animate_on_scroll__WEBPACK_IMPORTED_MODULE_7___default.a, {
@@ -11392,27 +11412,27 @@ function (_React$Component) {
           delay: index * 200,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 99
+            lineNumber: 101
           },
           __self: this
         }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
           src: judges.img,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 100
+            lineNumber: 102
           },
           __self: this
         }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 101
+            lineNumber: 103
           },
           __self: this
         }, judges.name)));
       }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_footer__WEBPACK_IMPORTED_MODULE_11__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 109
+          lineNumber: 111
         },
         __self: this
       }));
@@ -11442,7 +11462,7 @@ var site = {
   dateEventStart: '04/29/2019 19:00:00',
   dateEventFinish: '05/06/2019 14:00:00',
   dateRegistrationStart: '04/12/2019',
-  dateRegistrationFinish: '04/20/2019',
+  dateRegistrationFinish: '04/25/2019',
   menu: {
     links: [{
       path: '/',
@@ -11537,6 +11557,7 @@ var site = {
   hashtag: '#Geekforaweek',
   hackathon: {
     linkRegistration: 'https://pt.surveymonkey.com/r/geekforaweek',
+    linkVolunteers: 'https://pt.surveymonkey.com/r/Geekforaweekvoluntarios',
     regulation: '/static/docs/regulamento.pdf',
     details: [{
       title: 'Como saber se você está “nos trinques” para o Hackaton?',
@@ -11545,7 +11566,7 @@ var site = {
     }, {
       title: 'O que você precisa fazer para se inscrever?',
       description: 'Não se aperreie que a gente explica!',
-      topics: ['Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe, colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.', 'Acesse o link e inscreva-se!  Desta vez as inscrições serão realizadas por equipes!']
+      topics: ['Monte sua Equipe, ela deve ser composta por no mínimo 5 e no máximo 7 participantes. Lembrando que você precisa escolher para sua equipe colegas das outras unidades da Conductor (ao menos 1 de cada unidade) e de Squads diferentes.', 'Acesse o link e inscreva-se!  Desta vez as inscrições serão realizadas por equipes!']
     }, {
       title: 'Eita! E como será o Hackathon?',
       description: 'Ocorrerá no dia 29 de abril a 05 de maio de 2019.',
@@ -11553,7 +11574,7 @@ var site = {
     }, {
       title: 'Programação do Hackathon!',
       description: 'Fiquem atentos aos horários.',
-      topics: ['Inscrições - 08/04/2019 à 12/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
+      topics: ['Inscrições - 12/04/2019 à 19/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
     }],
     awards: [{
       title: '1º Lugar',
