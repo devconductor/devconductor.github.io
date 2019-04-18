@@ -71,6 +71,8 @@ class Hackathon extends React.Component {
                                 )
                             })
                         }
+                        <h2>Quer participar como voluntário?</h2>
+                        <a href={site.hackathon.linkVolunteers} target="_blank"><button>Clique aqui</button></a>
                     </div>
                 </MiniSection>
                 <MiniSection title="Premiação" alignCenter>
