@@ -163,7 +163,7 @@ const site = {
                 title: 'Programação do Hackathon!',
                 description: 'Fiquem atentos aos horários.',
                 topics: [
-                    'Inscrições - 12/04/2019 à 19/04/2019',
+                    'Inscrições - 12/04/2019 à 24/04/2019',
                     'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019',
                     'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)',
                     'Apresentações e resultados - 05/05/2019',
