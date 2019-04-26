@@ -11574,7 +11574,7 @@ var site = {
     }, {
       title: 'Programação do Hackathon!',
       description: 'Fiquem atentos aos horários.',
-      topics: ['Inscrições - 12/04/2019 à 19/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
+      topics: ['Inscrições - 12/04/2019 à 24/04/2019', 'Abertura/Apresentação - 19:00 à 20:00 do dia 29/04/2019', 'Mão na massa - 30/04/2019 à 04/05/2019 (As equipes podem destinar até uma hora da jornada de trabalho para seu projeto.)', 'Apresentações e resultados - 05/05/2019', 'Premiação - 06/05/2019 à 13/05/2019']
     }],
     awards: [{
       title: '1º Lugar',
@@ -11590,11 +11590,11 @@ var site = {
       img: '/static/img/people/FernandoDePaula.jpg',
       name: 'Fernando de Paula'
     }, {
-      img: '/static/img/people/CarlosBiribilli.jpg',
-      name: 'Carlos Biribilli'
+      img: '/static/img/people/PriscilaArruda.jpg',
+      name: 'Priscila Arruda'
     }, {
-      img: '/static/img/people/DanielBarbosa.jpg',
-      name: 'Daniel Barbosa'
+      img: '/static/img/people/TatianeSousa.jpg',
+      name: 'Tatiane Sousa'
     }, {
       img: '/static/img/people/EdreiCosta.jpg',
       name: 'Edrei Costa'
