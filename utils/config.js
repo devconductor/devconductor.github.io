@@ -191,12 +191,12 @@ const site = {
                 name: 'Fernando de Paula'
             },
             {
-                img: '/static/img/people/CarlosBiribilli.jpg',
-                name: 'Carlos Biribilli'
+                img: '/static/img/people/PriscilaArruda.jpg',
+                name: 'Priscila Arruda'
             },
             {
-                img: '/static/img/people/DanielBarbosa.jpg',
-                name: 'Daniel Barbosa'
+                img: '/static/img/people/TatianeSousa.jpg',
+                name: 'Tatiane Sousa'
             },
             {
                 img: '/static/img/people/EdreiCosta.jpg',
