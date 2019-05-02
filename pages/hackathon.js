@@ -99,7 +99,7 @@ class Hackathon extends React.Component {
                                 return (
                                     <div className="judge" key={index}>
                                         <ScrollAnimation animateIn="fadeInLeftBig" animateOnce delay={index * 200}>
-                                            <img src={judges.img} />
+                                            <div style={{ background: `url('${judges.img}')`}} />
                                             <h2>{judges.name}</h2>
                                         </ScrollAnimation>
                                     </div>

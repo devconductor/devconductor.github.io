@@ -187,20 +187,24 @@ const site = {
         ],
         judges: [
             {
-                img: '/static/img/people/FernandoDePaula.jpg',
-                name: 'Fernando de Paula'
-            },
-            {
-                img: '/static/img/people/PriscilaArruda.jpg',
-                name: 'Priscila Arruda'
-            },
-            {
                 img: '/static/img/people/TatianeSousa.jpg',
                 name: 'Tatiane Sousa'
             },
             {
-                img: '/static/img/people/EdreiCosta.jpg',
-                name: 'Edrei Costa'
+                img: '/static/img/people/ViniciusMachado.jpg',
+                name: 'Vinicius Machado'
+            },
+            {
+                img: '/static/img/people/MarceloFernandesIESP.jpg',
+                name: 'Marcelo Fernandes'
+            },
+            {
+                img: '/static/img/people/AlissonBritoUFPB.jpg',
+                name: 'Alisson Brito'
+            },
+            {
+                img: '/static/img/people/WalaceSartori.jpg',
+                name: 'Walace Sartori'
             },
         ]
     },
