@@ -11415,8 +11415,10 @@ function (_React$Component) {
             lineNumber: 101
           },
           __self: this
-        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("img", {
-          src: judges.img,
+        }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          style: {
+            background: "url('".concat(judges.img, "')")
+          },
           __source: {
             fileName: _jsxFileName,
             lineNumber: 102
@@ -11587,17 +11589,20 @@ var site = {
       award: '2 mil reais'
     }],
     judges: [{
-      img: '/static/img/people/FernandoDePaula.jpg',
-      name: 'Fernando de Paula'
-    }, {
-      img: '/static/img/people/PriscilaArruda.jpg',
-      name: 'Priscila Arruda'
-    }, {
       img: '/static/img/people/TatianeSousa.jpg',
       name: 'Tatiane Sousa'
     }, {
-      img: '/static/img/people/EdreiCosta.jpg',
-      name: 'Edrei Costa'
+      img: '/static/img/people/ViniciusMachado.jpg',
+      name: 'Vinicius Machado'
+    }, {
+      img: '/static/img/people/MarceloFernandesIESP.jpg',
+      name: 'Marcelo Fernandes'
+    }, {
+      img: '/static/img/people/AlissonBritoUFPB.jpg',
+      name: 'Alisson Brito'
+    }, {
+      img: '/static/img/people/WalaceSartori.jpg',
+      name: 'Walace Sartori'
     }]
   },
   footer: {
